@@ -1,8 +1,3 @@
-# Odin
-Odin is a closed domain question answering package for Explore Data Science Academy.
-The package is required to assist in the onboarding of new  students and provide administrative guidance for the course.
-This will benefit Explore by providing students with an alternative resource to Supervisors therby freeing up Supervisor time.
-
 # Installation Instructions
 
 1. Create a virtual environment:
