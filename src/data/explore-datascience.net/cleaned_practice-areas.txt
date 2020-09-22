@@ -1,0 +1,30 @@
+We Solve Crazy Difficult Problems
+At EXPLORE our Scientists work globally to solve difficult problems. We've worked across Europe building AI solutions for large Water Utilities and Financial Services companies
+Our Practice Areas
+Explore Utilities
+EXPLORE Financial Services
+Fibre Roll Out
+Rolling out a Fibre network is a complicated process. It is a function of a number of things. EXPLORE helped a large Telecommunications company optimise its roll out plan by building a model that prioritized the roll-out plan with a projected RoI set per area.
+Reducing the Fault Rate
+A large network built over many decades spanning 1,000�s of miles is prone to break. When customers experience a fault it is an expensive exercise for the operator as it needs to send Technicians across the country to fix the issue. The customer may also churn due to the poor service which results in lower Revenues.
+Supply and Demand Modelling
+Supply and Demand are two major components that comprise a utility network. The efficient management of these two components is vital to both cost efficient operation of the network and maintaining customer satisfaction.
+System Risk Modelling
+Utility networks are comprised of components that vary in a multitude of properties, for example age, material and size. They�re prone to faults which could lead to supply interruption, property damage and most importantly threat to life.
+CASE STUDY 01
+We have 7 years experience working with large Utility Networks. We have solved some of their thorniest problems. From pieces on Predictive Maintenance to Capital Efficiency to System Risk we have helped large national operators serve their customers critical public utilities better. Our work has impacted 10M's of people across the world. We're really proud of that.
+Supply Interruption
+Stream information real-time to predict if, when and why your customers will experience problems.
+Risk Analysis
+See where in your network the risks are, how big they are and what to do to fix them.
+Predictive Maintenance
+Understand what assets you should maintain when, to optimise asset spend and customer satisfaction
+Customer Optimisation
+Understand your customer�s behaviour, sentiment and profitability so you�re better equipped to deliver great service to them.
+Capital Efficiency
+See where and how to invest in new capital infrastructure.
+Field Force Optimisation
+Understand the performance of your field force and how to improve their efficiency.
+CASE STUDY 01
+We have 10 years experience working with large Financial Services businesses. We have worked on some of their toughest issues. From Pricing Schedules to Loan Application Optimization to Automated Sales Compliance algorithms to Voice of the Customer analytics we've helped Banks and Insurers deliver better products and services to their customers. 
+Lauch your career today and start doing Amazing Things

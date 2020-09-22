@@ -1,0 +1,526 @@
+Data Science
+Self-funded
+Sponsored
+Cape Town
+Online: Part-time
+Johannesburg
+Durban
+Self-funded
+Sponsored
+Cape Town
+Online: Part-time
+Johannesburg
+Durban
+In 6 months you will learn one of the highest paid and fastest growing skills in the Tech Industry: Data Science. This course will teach you how to solve difficult problems using the latest advances in Data Science.
+Next Course
+Jul 06, 2020 - Dec 15, 2020
+Applications will open again in the future
+Overview
+Join the sexiest career of the 21st Century
+Data Science is one of the fastest growing careers with some of the highest salaries paid.
+Work with Some of the Best
+Our support team have been there and done that - they are experienced practitioners of data science in various fields such as Utilities, Retail and Financial Services; with a solid academic background.
+Learn How to Solve Problems
+The course is built around solving actual problems whilst learning about the latest data science and machine learning techniques.
+Apply the skills
+EXPLORE prides itself on the practicality of the course. Participants must be able to apply the skills/knowledge that they acquired to do amazing things.
+Extended Access To Material
+Participants will have extended access to the material that are covered in the course, allowing them to revisit the techniques to keep it fresh in their mind. 
+Curriculum
+Start thinking like a data scientist
+This course will provide students with the knowledge, skills and experience to get a job as a data scientist - which requires a mix of programming, statistical understanding and the ability to apply both skills in new and challenging domains. The course will teach students to gather data, visualise data, apply statistical analysis to answer questions with that data and make their insights and information as actionable as possible.
+Students will gain an overview of Data Science and the fundamental skills required to be a data scientist. They will learn how to clean, analyse and visualise data as well as how to effectively communicate the findings to drive actionable interventions. The tools to be used will be Python, Power BI, Microsoft SQL and GSuite.
+Able to create and query a SQL database to extract valuable information
+Able to query analyse datasets in Python by using Numpy, Pandas and Pyodbc
+Able to write and understand basic syntax in Python as well as to debug errors
+Able to write complex functions to automate analysis
+Able to build dynamic and interactive dashboards using Power BI
+Able to effectively communicate the findings after an analysis
+Students will solve real-world problems by building regression, classification and unsupervised learning algorithms in python. It will involve data exploration insight, building, improving and communicating models from a raw and unstructured dataset.
+Able to prepare data appropriately for model building purposes.
+Able to build a linear regression model in python and test the results of predictions.
+Able to build a logistic regression model in python and test the results of predictions.
+Able to optimize models to enhance performance.
+Learn to apply advanced models, such as random forests and support vector machines, to real world problems.
+Learn to apply unsupervised techniques, such as k-means clustering and dimensionality reduction, to your data.
+Able to gather insight and derive patterns from unstructured data.
+Students will solve real-world problems by building regression, classification and unsupervised learning algorithms in python. It will involve data exploration insight, building, improving and communicating models from a raw and unstructured dataset.
+Able to prepare data appropriately for model building purposes
+Able to build a linear regression model in python and test the results of predictions
+Able to build a logistic regression model in python and test the results of predictions
+Able to optimize models to enhance performance
+Learn to apply advanced models, such as random forests and support vector machines, to real world problems
+Learn to apply unsupervised techniques, such as k-means clustering and dimensionality reduction, to your data
+Able to gather insight and derive patterns from unstructured data
+Course Introduction
+This 2-minute outline video summarises everything you need to know about our Data Science course, including the subject matter, content delivery, workload, and difficulty.
+Instructors
+Meet your teachers
+We take teaching seriously. Great teachers inspire us to connect with topics on a profound level. With experience in the field and the classroom, our data science instructors are unmatched. Simply put: students learn from the best.
+Jaco Jansen van Rensburg
+Jaco is a Lead Data Scientist in the EXPLORE Data Science Academy. He has spent the bulk of his career on scientific and industrial research and holds a PhD in Mechanical Engineering with a focus on mathematical modelling and optimisation.
+Trevor
+Trevor is a Data Science, Machine learning and Artificial intelligence enthusiast.He has a Bsc degree majoring in Physics and Mathematics. He is a dynamic problem solver who recognizes that problems have to be approached at a 3rd dimensional point of view.Trevor is an omnivert and adventurist who enjoys exploring parts of the world.
+Joanne
+Armed with a business degree, Joanne ventured into the world of media, and then cosmetics, before finding a home in Data Science. She believes in the power of storytelling with data and is passionate about alternative education, and solving problems in under-serviced communities. Joanne is decidedly not a morning person unless primed with a cup of [good] coffee.
+Damian
+Damian is a civil engineer turned data scientist. He has a black belt in data science and martial arts, and always has Oreos on hand to diffuse stressful situations.
+Simon Shilo
+Simon is a Metallurgical Engineer by training and a Data Scientist by profession. He has been teaching programming and problem solving since 2011.
+Siphesihle
+Siphesihle has a diploma in Electrical Engineering, found herself in data science by chance. She loves working with people and solving problems.
+Jaco Jansen van Rensburg
+Jaco is a Lead Data Scientist in the EXPLORE Data Science Academy. He has spent the bulk of his career on scientific and industrial research and holds a PhD in Mechanical Engineering with a focus on mathematical modelling and optimisation.
+Trevor
+Trevor is a Data Science, Machine learning and Artificial intelligence enthusiast.He has a Bsc degree majoring in Physics and Mathematics. He is a dynamic problem solver who recognizes that problems have to be approached at a 3rd dimensional point of view.Trevor is an omnivert and adventurist who enjoys exploring parts of the world.
+Joanne
+Armed with a business degree, Joanne ventured into the world of media, and then cosmetics, before finding a home in Data Science. She believes in the power of storytelling with data and is passionate about alternative education, and solving problems in under-serviced communities. Joanne is decidedly not a morning person unless primed with a cup of [good] coffee.
+Damian
+Damian is a civil engineer turned data scientist. He has a black belt in data science and martial arts, and always has Oreos on hand to diffuse stressful situations.
+Simon Shilo
+Simon is a Metallurgical Engineer by training and a Data Scientist by profession. He has been teaching programming and problem solving since 2011.
+Siphesihle
+Siphesihle has a diploma in Electrical Engineering, found herself in data science by chance. She loves working with people and solving problems.
+Learn one of the most in demand skills out there
+Four megatrends are fundamentally changing the shape of our world:
+Vast amounts of data are being generated every minute.
+The processing speed of our machines is increasing exponentially.
+We now have cloud providers who can store insane amounts of data for a few dollars.
+Powerful open source algorithms that can read, write, translate and see are now available to everyone.
+Data Science is the skillset used to harness the power of these tectonic shifts in our world. With the Data Scientist�s tool-kit almost any problem can now be solved using cloud-based technology and the set of algorithms that are the Data Scientists domain. 
+It is no surprise that Data Scientists are one of the most highly paid and in demand skills of the 21st Century. In fact, the job �Data Scientist� was rated the �sexiest profession of the 21st Century� by the Harvard Business Review.
+Admissions
+Take the leap, apply now
+We don�t just admit individual students to our program; we curate a community. Our students come from a myriad of backgrounds and previous career paths � insuring that a diversity of thought, experience, and perspective are not only invited, but actively sought.
+1. Apply
+Submit your application on our website and complete a quiz that will challenge your problem solving capabilities.
+2. Bootcamp
+Complete our online bootcamp that will test your knowledge and skills that are relevant to this course.
+3. Interview
+Have an interview at our campus for the final step in the admissions process.
+4. Video Upload
+Send us a 2min video explaining who you are and why you want to be on this course.
+Passion
+Aptitude
+Culture
+Career Services
+Get a job within six months of graduation
+EXPLORE students get jobs, period. As a graduate of our full-time, on campus Data Science course, get a job within six months of graduation or get your money back (see eligibility terms). From weekly 1:1 career coaching sessions, to mock interviews, to employer introductions, the seasoned Career Services team behind our student success stories is dedicated to helping our students launch lifelong careers in data science. *Not applicable to the Online: part-time course.
+Dedicated Career Coaching
+Every student on campus receives a dedicated career coach who will mentor students through an effective job search via resume review, mock interviews, and strategies for building a job opportunity pipeline and getting a foot in the door at top-choice companies.
+Money-Back Guarantee
+EXPLORE students change careers with confidence thanks to our money-back guarantee: you�ll receive a job offer within six months, or we�ll refund your full tuition (see eligibility terms).
+A Proven Job Search Framework
+After years of helping students get hired, we�ve developed a proven framework for leading a successful job search. Nearly every single student who has followed these guidelines has been hired.
+Course Pricing
+Find the right payment plan for you
+Upfront Payment
+One upfront payment, payable before the start of the course
+Course Date: Jul 06, 2020 - Dec 15, 2020
+Monthly Payment
+6 Monthly payments, payable in advance at the start of each month
+Course Date: Jul 06, 2020 - Dec 15, 2020
+You have questions; we have answers
+Microsoft SQL - to manage large databases
+Power BI - to build dashboards
+Python - for programming and building models
+Microsoft SQL - to manage large databases 
+Power BI - to build dashboards
+Python - for programming and building models
+All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler.
+For on campus study there are some qualifying criteria, which can be found in the T�s and C�s of our Money-Back Promise (on the website). For online study, anyone qualifies!
+This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure� Use our handy tool to find the course for you. Look for the link under �Find your tribe�
+We are SETA Accredited and our Data Science course is at NQF level 5. Upon completion of our courses, you will receive a completion certificate.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page.
+Webinars will be scheduled for content briefing, and, we have a really cool student chat platform which gives you access to the student community and course facilitators.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler.
+For on campus study there are some qualifying criteria, which can be found in the T�s and C�s of our Money-Back Promise (on the website). For online study, anyone qualifies!
+This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure� Use our handy tool to find the course for you. Look for the link under �Find your tribe�
+We are SETA Accredited and our Data Science course is at NQF level 5. Upon completion of our courses, you will receive a completion certificate.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page.
+You will use the following tools in the course:
+Microsoft SQL - to manage large databases
+Power BI - to build dashboards
+Python - for programming and building models
+No. Even though there is complex maths behind some of the models, we won�t explicitly cover it. However, the material will be available for those who are interested in the details.
+No. If you apply for a sponsorship however, there will be some documentation needed.
+At EXPLORE we have what is called the Belt system. You will receive points for completing tutorials, test results, project results and peer assessment. These points will build up and can be mapped to a certain belt level which ranger from white to black.
+All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler.
+For on campus study there are some qualifying criteria, which can be found in the T�s and C�s of our Money-Back Promise (on the website). For online study, anyone qualifies!
+This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure� Use our handy tool to find the course for you. Look for the link under �Find your tribe�
+We are SETA Accredited and our Data Science course is at NQF level 5. Upon completion of our courses, you will receive a completion certificate.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page.
+Webinars will be scheduled for content briefing, and, we have a really cool student chat platform which gives you access to the student community and course facilitators.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler.
+For on campus study there are some qualifying criteria, which can be found in the T�s and C�s of our Money-Back Promise (on the website). For online study, anyone qualifies!
+This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure� Use our handy tool to find the course for you. Look for the link under �Find your tribe�
+We are SETA Accredited and our Data Science course is at NQF level 5. Upon completion of our courses, you will receive a completion certificate.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page.
+You will use the following tools in the course:
+Microsoft SQL - to manage large databases 
+Power BI - to build dashboards
+Python - for programming and building models
+You will solve fun problems like picking the best football team based on player stats as well as more practical problems like predicting which customer will take out a personal loan.
+No. Even though there is complex maths behind some of the models, we won�t explicitly cover it. However, the material will be available for those who are interested in the details.
+No. If you apply for a sponsorship however, there will be some documentation needed.
+At EXPLORE we have what is called the Belt system. You will receive points for completing tutorials, test results, project results and peer assessment. These points will build up and can be mapped to a certain belt level which ranger from white to black.
+Prices: R60,000
+Prices: R3,000
+Prices: R10,000 per month
+Prices: R3,000
+Data Science
+Self-funded
+Sponsored
+Online: Part-time
+Cape Town
+Online: Part-time
+Johannesburg
+Durban
+Self-funded
+Sponsored
+Cape Town
+Online: Part-time
+Johannesburg
+Durban
+In 12 months you will learn one of the highest paid and fastest growing skills in the Tech Industry: Data Science. This course will teach you how to solve difficult problems using the latest advances in Data Science.
+Next Course
+Jul 06, 2020 - Jun 30, 2021
+Applications will open again in the future
+Overview
+Join the sexiest career of the 21st Century
+Data Science is one of the fastest growing careers with some of the highest salaries paid.
+Work with Some of the Best
+Our support team have been there and done that - they are experienced practitioners of data science in various fields such as Utilities, Retail and Financial Services; with a solid academic background.
+Learn How to Solve Problems
+The course is built around solving actual problems whilst learning about the latest data science and machine learning techniques.
+Apply the skills
+EXPLORE prides itself on the practicality of the course. Participants must be able to apply the skills/knowledge that they acquired to do amazing things.
+Extended Access To Material
+Participants will have extended access to the material that are covered in the course, allowing them to revisit the techniques to keep it fresh in their mind. 
+Curriculum
+Start thinking like a data scientist
+This course will provide students with the knowledge, skills and experience to get a job as a data scientist - which requires a mix of programming, statistical understanding and the ability to apply both skills in new and challenging domains. The course will teach students to gather data, visualise data, apply statistical analysis to answer questions with that data and make their insights and information as actionable as possible.
+Students will gain an overview of Data Science and the fundamental skills required to be a data scientist. They will learn how to clean, analyse and visualise data as well as how to effectively communicate the findings to drive actionable interventions. The tools to be used will be Python, Power BI, Microsoft SQL and GSuite.
+Able to create and query a SQL database to extract valuable information
+Able to query analyse datasets in Python by using Numpy, Pandas and Pyodbc
+Able to write and understand basic syntax in Python as well as to debug errors
+Able to write complex functions to automate analysis
+Able to build dynamic and interactive dashboards using Power BI
+Able to effectively communicate the findings after an analysis
+Students will solve real-world problems by building regression, classification and unsupervised learning algorithms in python. It will involve data exploration insight, building, improving and communicating models from a raw and unstructured dataset.
+Able to prepare data appropriately for model building purposes.
+Able to build a linear regression model in python and test the results of predictions.
+Able to build a logistic regression model in python and test the results of predictions.
+Able to optimize models to enhance performance.
+Learn to apply advanced models, such as random forests and support vector machines, to real world problems.
+Learn to apply unsupervised techniques, such as k-means clustering and dimensionality reduction, to your data.
+Able to gather insight and derive patterns from unstructured data.
+Students will solve real-world problems by building regression, classification and unsupervised learning algorithms in python. It will involve data exploration insight, building, improving and communicating models from a raw and unstructured dataset.
+Able to prepare data appropriately for model building purposes
+Able to build a linear regression model in python and test the results of predictions
+Able to build a logistic regression model in python and test the results of predictions
+Able to optimize models to enhance performance
+Learn to apply advanced models, such as random forests and support vector machines, to real world problems
+Learn to apply unsupervised techniques, such as k-means clustering and dimensionality reduction, to your data
+Able to gather insight and derive patterns from unstructured data
+Course Introduction
+This 2-minute outline video summarises everything you need to know about our Data Science course, including the subject matter, content delivery, workload, and difficulty.
+Instructors
+Meet your teachers
+We take teaching seriously. Great teachers inspire us to connect with topics on a profound level. With experience in the field and the classroom, our data science instructors are unmatched. Simply put: students learn from the best.
+Jaco Jansen van Rensburg
+Jaco is a Lead Data Scientist in the EXPLORE Data Science Academy. He has spent the bulk of his career on scientific and industrial research and holds a PhD in Mechanical Engineering with a focus on mathematical modelling and optimisation.
+Trevor
+Trevor is a Data Science, Machine learning and Artificial intelligence enthusiast.He has a Bsc degree majoring in Physics and Mathematics. He is a dynamic problem solver who recognizes that problems have to be approached at a 3rd dimensional point of view.Trevor is an omnivert and adventurist who enjoys exploring parts of the world.
+Joanne
+Armed with a business degree, Joanne ventured into the world of media, and then cosmetics, before finding a home in Data Science. She believes in the power of storytelling with data and is passionate about alternative education, and solving problems in under-serviced communities. Joanne is decidedly not a morning person unless primed with a cup of [good] coffee.
+Damian
+Damian is a civil engineer turned data scientist. He has a black belt in data science and martial arts, and always has Oreos on hand to diffuse stressful situations.
+Simon Shilo
+Simon is a Metallurgical Engineer by training and a Data Scientist by profession. He has been teaching programming and problem solving since 2011.
+Siphesihle
+Siphesihle has a diploma in Electrical Engineering, found herself in data science by chance. She loves working with people and solving problems.
+Jaco Jansen van Rensburg
+Jaco is a Lead Data Scientist in the EXPLORE Data Science Academy. He has spent the bulk of his career on scientific and industrial research and holds a PhD in Mechanical Engineering with a focus on mathematical modelling and optimisation.
+Trevor
+Trevor is a Data Science, Machine learning and Artificial intelligence enthusiast.He has a Bsc degree majoring in Physics and Mathematics. He is a dynamic problem solver who recognizes that problems have to be approached at a 3rd dimensional point of view.Trevor is an omnivert and adventurist who enjoys exploring parts of the world.
+Joanne
+Armed with a business degree, Joanne ventured into the world of media, and then cosmetics, before finding a home in Data Science. She believes in the power of storytelling with data and is passionate about alternative education, and solving problems in under-serviced communities. Joanne is decidedly not a morning person unless primed with a cup of [good] coffee.
+Damian
+Damian is a civil engineer turned data scientist. He has a black belt in data science and martial arts, and always has Oreos on hand to diffuse stressful situations.
+Simon Shilo
+Simon is a Metallurgical Engineer by training and a Data Scientist by profession. He has been teaching programming and problem solving since 2011.
+Siphesihle
+Siphesihle has a diploma in Electrical Engineering, found herself in data science by chance. She loves working with people and solving problems.
+Learn one of the most in demand skills out there
+Four megatrends are fundamentally changing the shape of our world:
+Vast amounts of data are being generated every minute.
+The processing speed of our machines is increasing exponentially.
+We now have cloud providers who can store insane amounts of data for a few dollars.
+Powerful open source algorithms that can read, write, translate and see are now available to everyone.
+Data Science is the skillset used to harness the power of these tectonic shifts in our world. With the Data Scientist�s tool-kit almost any problem can now be solved using cloud-based technology and the set of algorithms that are the Data Scientists domain. 
+It is no surprise that Data Scientists are one of the most highly paid and in demand skills of the 21st Century. In fact, the job �Data Scientist� was rated the �sexiest profession of the 21st Century� by the Harvard Business Review.
+Admissions
+Take the leap, apply now
+We don�t just admit individual students to our program; we curate a community. Our students come from a myriad of backgrounds and previous career paths � insuring that a diversity of thought, experience, and perspective are not only invited, but actively sought.
+1. Apply
+Submit your application on our website and complete a quiz that will challenge your problem solving capabilities.
+2. Bootcamp
+Complete our online bootcamp that will test your knowledge and skills that are relevant to this course.
+3. Interview
+Have an interview at our campus for the final step in the admissions process.
+4. Video Upload
+Send us a 2min video explaining who you are and why you want to be on this course.
+Passion
+Aptitude
+Culture
+Career Services
+Get a job within six months of graduation
+EXPLORE students get jobs, period. As a graduate of our full-time, on campus Data Science course, get a job within six months of graduation or get your money back (see eligibility terms). From weekly 1:1 career coaching sessions, to mock interviews, to employer introductions, the seasoned Career Services team behind our student success stories is dedicated to helping our students launch lifelong careers in data science. *Not applicable to the Online: part-time course.
+Dedicated Career Coaching
+Every student on campus receives a dedicated career coach who will mentor students through an effective job search via resume review, mock interviews, and strategies for building a job opportunity pipeline and getting a foot in the door at top-choice companies.
+Money-Back Guarantee
+EXPLORE students change careers with confidence thanks to our money-back guarantee: you�ll receive a job offer within six months, or we�ll refund your full tuition (see eligibility terms).
+A Proven Job Search Framework
+After years of helping students get hired, we�ve developed a proven framework for leading a successful job search. Nearly every single student who has followed these guidelines has been hired.
+Course Pricing
+Find the right payment plan for you
+Upfront Payment
+One upfront payment, payable before the start of the course
+Course Date: Jul 06, 2020 - Jun 30, 2021
+Monthly Payment
+12 Monthly payments, payable in advance at the start of each month
+Course Date: Jul 06, 2020 - Jun 30, 2021
+You have questions; we have answers
+Microsoft SQL - to manage large databases
+Power BI - to build dashboards
+Python - for programming and building models
+Microsoft SQL - to manage large databases 
+Power BI - to build dashboards
+Python - for programming and building models
+All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler.
+For on campus study there are some qualifying criteria, which can be found in the T�s and C�s of our Money-Back Promise (on the website). For online study, anyone qualifies!
+This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure� Use our handy tool to find the course for you. Look for the link under �Find your tribe�
+We are SETA Accredited and our Data Science course is at NQF level 5. Upon completion of our courses, you will receive a completion certificate.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page.
+Webinars will be scheduled for content briefing, and, we have a really cool student chat platform which gives you access to the student community and course facilitators.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler.
+For on campus study there are some qualifying criteria, which can be found in the T�s and C�s of our Money-Back Promise (on the website). For online study, anyone qualifies!
+This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure� Use our handy tool to find the course for you. Look for the link under �Find your tribe�
+We are SETA Accredited and our Data Science course is at NQF level 5. Upon completion of our courses, you will receive a completion certificate.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page.
+You will use the following tools in the course:
+Microsoft SQL - to manage large databases
+Power BI - to build dashboards
+Python - for programming and building models
+No. Even though there is complex maths behind some of the models, we won�t explicitly cover it. However, the material will be available for those who are interested in the details.
+No. If you apply for a sponsorship however, there will be some documentation needed.
+At EXPLORE we have what is called the Belt system. You will receive points for completing tutorials, test results, project results and peer assessment. These points will build up and can be mapped to a certain belt level which ranger from white to black.
+All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler.
+For on campus study there are some qualifying criteria, which can be found in the T�s and C�s of our Money-Back Promise (on the website). For online study, anyone qualifies!
+This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure� Use our handy tool to find the course for you. Look for the link under �Find your tribe�
+We are SETA Accredited and our Data Science course is at NQF level 5. Upon completion of our courses, you will receive a completion certificate.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page.
+Webinars will be scheduled for content briefing, and, we have a really cool student chat platform which gives you access to the student community and course facilitators.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler.
+For on campus study there are some qualifying criteria, which can be found in the T�s and C�s of our Money-Back Promise (on the website). For online study, anyone qualifies!
+This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure� Use our handy tool to find the course for you. Look for the link under �Find your tribe�
+We are SETA Accredited and our Data Science course is at NQF level 5. Upon completion of our courses, you will receive a completion certificate.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page.
+You will use the following tools in the course:
+Microsoft SQL - to manage large databases 
+Power BI - to build dashboards
+Python - for programming and building models
+You will solve fun problems like picking the best football team based on player stats as well as more practical problems like predicting which customer will take out a personal loan.
+No. Even though there is complex maths behind some of the models, we won�t explicitly cover it. However, the material will be available for those who are interested in the details.
+No. If you apply for a sponsorship however, there will be some documentation needed.
+Prices: R30,000
+Prices: R3,000 per month
+Data Science
+Self-funded
+Sponsored
+Online: Part-time
+Cape Town
+Online: Part-time
+Johannesburg
+Durban
+Self-funded
+Sponsored
+Cape Town
+Online: Part-time
+Johannesburg
+Durban
+In 6 months you will learn one of the highest paid and fastest growing skills in the Tech Industry: Data Science. This course will teach you how to solve difficult problems using the latest advances in Data Science.
+Next Course
+Jul 06, 2020 - Jun 30, 2021
+Applications will open again in the future
+Overview
+Join the sexiest career of the 21st Century
+Data Science is one of the fastest growing careers with some of the highest salaries paid.
+Work with Some of the Best
+Our support team have been there and done that - they are experienced practitioners of data science in various fields such as Utilities, Retail and Financial Services; with a solid academic background.
+Learn How to Solve Problems
+The course is built around solving actual problems whilst learning about the latest data science and machine learning techniques.
+Apply the skills
+EXPLORE prides itself on the practicality of the course. Participants must be able to apply the skills/knowledge that they acquired to do amazing things.
+Extended Access To Material
+Participants will have extended access to the material that are covered in the course, allowing them to revisit the techniques to keep it fresh in their mind. 
+Curriculum
+Start thinking like a data scientist
+This course will provide students with the knowledge, skills and experience to get a job as a data scientist - which requires a mix of programming, statistical understanding and the ability to apply both skills in new and challenging domains. The course will teach students to gather data, visualise data, apply statistical analysis to answer questions with that data and make their insights and information as actionable as possible.
+Students will gain an overview of Data Science and the fundamental skills required to be a data scientist. They will learn how to clean, analyse and visualise data as well as how to effectively communicate the findings to drive actionable interventions. The tools to be used will be Python, Power BI, Microsoft SQL and GSuite.
+Able to create and query a SQL database to extract valuable information
+Able to query analyse datasets in Python by using Numpy, Pandas and Pyodbc
+Able to write and understand basic syntax in Python as well as to debug errors
+Able to write complex functions to automate analysis
+Able to build dynamic and interactive dashboards using Power BI
+Able to effectively communicate the findings after an analysis
+Students will solve real-world problems by building regression, classification and unsupervised learning algorithms in python. It will involve data exploration insight, building, improving and communicating models from a raw and unstructured dataset.
+Able to prepare data appropriately for model building purposes.
+Able to build a linear regression model in python and test the results of predictions.
+Able to build a logistic regression model in python and test the results of predictions.
+Able to optimize models to enhance performance.
+Learn to apply advanced models, such as random forests and support vector machines, to real world problems.
+Learn to apply unsupervised techniques, such as k-means clustering and dimensionality reduction, to your data.
+Able to gather insight and derive patterns from unstructured data.
+Students will solve real-world problems by building regression, classification and unsupervised learning algorithms in python. It will involve data exploration insight, building, improving and communicating models from a raw and unstructured dataset.
+Able to prepare data appropriately for model building purposes
+Able to build a linear regression model in python and test the results of predictions
+Able to build a logistic regression model in python and test the results of predictions
+Able to optimize models to enhance performance
+Learn to apply advanced models, such as random forests and support vector machines, to real world problems
+Learn to apply unsupervised techniques, such as k-means clustering and dimensionality reduction, to your data
+Able to gather insight and derive patterns from unstructured data
+Course Introduction
+This 2-minute outline video summarises everything you need to know about our Data Science course, including the subject matter, content delivery, workload, and difficulty.
+Instructors
+Meet your teachers
+We take teaching seriously. Great teachers inspire us to connect with topics on a profound level. With experience in the field and the classroom, our data science instructors are unmatched. Simply put: students learn from the best.
+Jaco Jansen van Rensburg
+Jaco is a Lead Data Scientist in the EXPLORE Data Science Academy. He has spent the bulk of his career on scientific and industrial research and holds a PhD in Mechanical Engineering with a focus on mathematical modelling and optimisation.
+Trevor
+Trevor is a Data Science, Machine learning and Artificial intelligence enthusiast.He has a Bsc degree majoring in Physics and Mathematics. He is a dynamic problem solver who recognizes that problems have to be approached at a 3rd dimensional point of view.Trevor is an omnivert and adventurist who enjoys exploring parts of the world.
+Joanne
+Armed with a business degree, Joanne ventured into the world of media, and then cosmetics, before finding a home in Data Science. She believes in the power of storytelling with data and is passionate about alternative education, and solving problems in under-serviced communities. Joanne is decidedly not a morning person unless primed with a cup of [good] coffee.
+Damian
+Damian is a civil engineer turned data scientist. He has a black belt in data science and martial arts, and always has Oreos on hand to diffuse stressful situations.
+Simon Shilo
+Simon is a Metallurgical Engineer by training and a Data Scientist by profession. He has been teaching programming and problem solving since 2011.
+Siphesihle
+Siphesihle has a diploma in Electrical Engineering, found herself in data science by chance. She loves working with people and solving problems.
+Jaco Jansen van Rensburg
+Jaco is a Lead Data Scientist in the EXPLORE Data Science Academy. He has spent the bulk of his career on scientific and industrial research and holds a PhD in Mechanical Engineering with a focus on mathematical modelling and optimisation.
+Trevor
+Trevor is a Data Science, Machine learning and Artificial intelligence enthusiast.He has a Bsc degree majoring in Physics and Mathematics. He is a dynamic problem solver who recognizes that problems have to be approached at a 3rd dimensional point of view.Trevor is an omnivert and adventurist who enjoys exploring parts of the world.
+Joanne
+Armed with a business degree, Joanne ventured into the world of media, and then cosmetics, before finding a home in Data Science. She believes in the power of storytelling with data and is passionate about alternative education, and solving problems in under-serviced communities. Joanne is decidedly not a morning person unless primed with a cup of [good] coffee.
+Damian
+Damian is a civil engineer turned data scientist. He has a black belt in data science and martial arts, and always has Oreos on hand to diffuse stressful situations.
+Simon Shilo
+Simon is a Metallurgical Engineer by training and a Data Scientist by profession. He has been teaching programming and problem solving since 2011.
+Siphesihle
+Siphesihle has a diploma in Electrical Engineering, found herself in data science by chance. She loves working with people and solving problems.
+Learn one of the most in demand skills out there
+Four megatrends are fundamentally changing the shape of our world:
+Vast amounts of data are being generated every minute.
+The processing speed of our machines is increasing exponentially.
+We now have cloud providers who can store insane amounts of data for a few dollars.
+Powerful open source algorithms that can read, write, translate and see are now available to everyone.
+Data Science is the skillset used to harness the power of these tectonic shifts in our world. With the Data Scientist�s tool-kit almost any problem can now be solved using cloud-based technology and the set of algorithms that are the Data Scientists domain. 
+It is no surprise that Data Scientists are one of the most highly paid and in demand skills of the 21st Century. In fact, the job �Data Scientist� was rated the �sexiest profession of the 21st Century� by the Harvard Business Review.
+Admissions
+Take the leap, apply now
+We don�t just admit individual students to our program; we curate a community. Our students come from a myriad of backgrounds and previous career paths � insuring that a diversity of thought, experience, and perspective are not only invited, but actively sought.
+1. Apply
+Submit your application on our website and complete a quiz that will challenge your problem solving capabilities.
+2. Bootcamp
+Complete our online bootcamp that will test your knowledge and skills that are relevant to this course.
+3. Interview
+Have an interview at our campus for the final step in the admissions process.
+4. Video Upload
+Send us a 2min video explaining who you are and why you want to be on this course.
+Passion
+Aptitude
+Culture
+Career Services
+Get a job within six months of graduation
+EXPLORE students get jobs, period. As a graduate of our full-time, on campus Data Science course, get a job within six months of graduation or get your money back (see eligibility terms). From weekly 1:1 career coaching sessions, to mock interviews, to employer introductions, the seasoned Career Services team behind our student success stories is dedicated to helping our students launch lifelong careers in data science. *Not applicable to the Online: part-time course.
+Dedicated Career Coaching
+Every student on campus receives a dedicated career coach who will mentor students through an effective job search via resume review, mock interviews, and strategies for building a job opportunity pipeline and getting a foot in the door at top-choice companies.
+Money-Back Guarantee
+EXPLORE students change careers with confidence thanks to our money-back guarantee: you�ll receive a job offer within six months, or we�ll refund your full tuition (see eligibility terms).
+A Proven Job Search Framework
+After years of helping students get hired, we�ve developed a proven framework for leading a successful job search. Nearly every single student who has followed these guidelines has been hired.
+Course Pricing
+Find the right payment plan for you
+Upfront Payment
+One upfront payment, payable before the start of the course
+Course Date: Jul 06, 2020 - Jun 30, 2021
+Monthly Payment
+12 Monthly payments, payable in advance at the start of each month
+Course Date: Jul 06, 2020 - Jun 30, 2021
+You have questions; we have answers
+Microsoft SQL - to manage large databases
+Power BI - to build dashboards
+Python - for programming and building models
+Microsoft SQL - to manage large databases 
+Power BI - to build dashboards
+Python - for programming and building models
+All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler.
+For on campus study there are some qualifying criteria, which can be found in the T�s and C�s of our Money-Back Promise (on the website). For online study, anyone qualifies!
+This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure� Use our handy tool to find the course for you. Look for the link under �Find your tribe�
+We are SETA Accredited and our Data Science course is at NQF level 5. Upon completion of our courses, you will receive a completion certificate.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page.
+Webinars will be scheduled for content briefing, and, we have a really cool student chat platform which gives you access to the student community and course facilitators.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler.
+For on campus study there are some qualifying criteria, which can be found in the T�s and C�s of our Money-Back Promise (on the website). For online study, anyone qualifies!
+This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure� Use our handy tool to find the course for you. Look for the link under �Find your tribe�
+We are SETA Accredited and our Data Science course is at NQF level 5. Upon completion of our courses, you will receive a completion certificate.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page.
+You will use the following tools in the course:
+Microsoft SQL - to manage large databases
+Power BI - to build dashboards
+Python - for programming and building models
+You will solve fun problems like picking the best football team based on player stats as well as more practical problems like predicting which customer will take out a personal loan.
+No. Even though there is complex maths behind some of the models, we won�t explicitly cover it. However, the material will be available for those who are interested in the details.
+No. If you apply for a sponsorship however, there will be some documentation needed.
+At EXPLORE we have what is called the Belt system. You will receive points for completing tutorials, test results, project results and peer assessment. These points will build up and can be mapped to a certain belt level which ranger from white to black.
+All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler.
+For on campus study there are some qualifying criteria, which can be found in the T�s and C�s of our Money-Back Promise (on the website). For online study, anyone qualifies!
+This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure� Use our handy tool to find the course for you. Look for the link under �Find your tribe�
+We are SETA Accredited and our Data Science course is at NQF level 5. Upon completion of our courses, you will receive a completion certificate.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page.
+Webinars will be scheduled for content briefing, and, we have a really cool student chat platform which gives you access to the student community and course facilitators.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler.
+For on campus study there are some qualifying criteria, which can be found in the T�s and C�s of our Money-Back Promise (on the website). For online study, anyone qualifies!
+This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure� Use our handy tool to find the course for you. Look for the link under �Find your tribe�
+We are SETA Accredited and our Data Science course is at NQF level 5. Upon completion of our courses, you will receive a completion certificate.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page.
+You will use the following tools in the course:
+Microsoft SQL - to manage large databases 
+Power BI - to build dashboards
+Python - for programming and building models
+You will solve fun problems like picking the best football team based on player stats as well as more practical problems like predicting which customer will take out a personal loan.
+No. Even though there is complex maths behind some of the models, we won�t explicitly cover it. However, the material will be available for those who are interested in the details.
+No. If you apply for a sponsorship however, there will be some documentation needed.
+At EXPLORE we have what is called the Belt system. You will receive points for completing tutorials, test results, project results and peer assessment. These points will build up and can be mapped to a certain belt level which ranger from white to black.
+Prices: R30,000
+Prices: R3,000 per month

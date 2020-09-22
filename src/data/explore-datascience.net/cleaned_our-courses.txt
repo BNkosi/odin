@@ -1,0 +1,24 @@
+Our Courses
+We're reinventing education in South Africa. We're teaching the tools, skills and technologies
+that will matter in the future. And we're teaching them in new, better ways. We have an amazing
+technology platform, crazy talented Scientists and a passion to make a difference in our
+country. Our on campus courses are also covered by our Money-Back Promise.
+Our Courses
+Data Science
+Learn how to gather and analyse data to deliver business insights to executives.
+Software Engineering
+Learn how to build exciting web and mobile applications.
+Data engineering
+Learn how to engineer powerful data platforms that run large Enterprises.
+Analytics Translation
+Learn the latest advances in Data Science and AI to be a better business leader.
+Online Courses
+Online Data Science
+Learn how to gather and analyse data to deliver business insights to executives. 
+Online Software Engineering
+Learn how to build exciting web and mobile applications. 
+Online Data Engineering
+Learn how to engineer powerful data platforms that run large Enterprises. 
+Online Analytics Translation
+Learn the latest advances in Data Science and AI to be a better business leader. 
+Launch your career today and start doing amazing things

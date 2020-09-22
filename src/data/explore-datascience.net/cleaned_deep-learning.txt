@@ -1,0 +1,97 @@
+Deep Learning and AI
+Self-funded
+Sponsored
+Online: Part-time
+Self-funded
+Sponsored
+Online: Part-time
+Learn how to build intelligent machines using neural networks.
+Next Course
+Jan 13, 2021 - Apr 14, 2021
+Applications will open again in the future
+Overview
+Build systems and models that drive decision making and learn from data.
+Machine Learning Engineers are key to future decision-making in any data-driven company.
+Guided by some of the Best
+Our support team have been there and done that - they are experienced practitioners of data science in various fields such as Utilities, Retail and Financial Services; with a solid academic background.
+Learn How to Solve Problems
+The course is built around solving actual problems whilst learning about the latest machine learning techniques.
+Apply the skills
+EXPLORE prides itself on the practicality of the course. Participants must be able to apply the skills/knowledge that they acquired in your everyday job to impact their business.
+Extended access to Material
+Participants will have extended access to the material that are covered in the course, allowing them to revisit the techniques to keep it fresh in their mind. 
+Curriculum
+Start thinking like a deep learning engineer
+Participants will master the art of using computers to understand language by going through Natural Language Processing techniques. They will then cover the workings of Deep Learning models to make predictions using text and tabular data.
+Students will learn to use a computer to analyse massive amounts of text as well as use API�s to convert speech to text.
+Understand what AI and NLP is
+Able to use NLP techniques to analyse text
+Able to determine the sentiment of text
+Able to use API�s to convert speech to text
+Students will learn about deep learning algorithms and how it makes decisions. This includes ANN�s, CNN�s and RNN�s.
+Understand the structure of neural nets and when to use them
+Able to build deep learning models in Keras
+Able to transform data to be appropriate for algorithms
+Instructors
+Meet your teachers
+We take teaching seriously. Great teachers inspire us to connect with topics on a profound level. With experience in the field and the classroom, our data science instructors are unmatched. Simply put: students learn from the best.
+Jaco Jansen van Rensburg
+Jaco is a Lead Data Scientist in the EXPLORE Data Science Academy. He has spent the bulk of his career on scientific and industrial research and holds a PhD in Mechanical Engineering with a focus on mathematical modelling and optimisation.
+Dewald Botha
+Dewald is an actuary and senior data scientist. He was one of the first brave souls to join the EXPLORE ship in 2016. He is managing EXPLORE's learning platform, Athena, and leading the corporate training - 2/3 day bootcamps to upskill employees.
+Make better decisions and smart actions in real time without human intervention
+Four megatrends are fundamentally changing the shape of our world:
+Vast amounts of data are being generated every minute.
+The processing speed of our machines is increasing exponentially.
+We now have cloud providers who can store insane amounts of data for a few dollars.
+Powerful open source algorithms that can read, write, translate and see are now available to everyone.
+All of these things above mean that it�s becoming easier and quicker to produce models that can analyze bigger/more complex data and deliver more accurate results � even on a very large scale. By building deep learning models a business might have a better chance of identifying profitable opportunities � or avoiding unknown risks. 
+Course Pricing
+Find the right payment plan for you
+Upfront Payment
+One upfront payment, payable before the start of the course
+Course Date: Jan 13, 2021 - Apr 14, 2021
+Monthly Payment
+3 Monthly payments, payable in advance at the start of each month
+Course Date: Jan 13, 2021 - Apr 14, 2021
+You have questions; we have answers
+All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler.
+For on campus study there are some qualifying criteria, which can be found in the T�s and C�s of our Money-Back Promise (on the website). For online study, anyone qualifies!
+This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure� Use our handy tool to find the course for you. Look for the link under �Find your tribe�
+We are SETA Accredited and our Data Science course is at NQF level 5. Upon completion of our courses, you will receive a completion certificate.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page.
+Webinars will be scheduled for content briefing, and, we have a really cool student chat platform which gives you access to the student community and course facilitators.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler.
+For on campus study there are some qualifying criteria, which can be found in the T�s and C�s of our Money-Back Promise (on the website). For online study, anyone qualifies!
+This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure� Use our handy tool to find the course for you. Look for the link under �Find your tribe�
+We are SETA Accredited and our Data Science course is at NQF level 5. Upon completion of our courses, you will receive a completion certificate.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page.
+You will code using Python in a Jupyter Notebook environment.
+Yes. Even though there is complex maths behind some of the models, we won�t explicitly cover it. We will mainly cover how the algorithms work and how to implement them in Python. You are more than welcome to ask technical questions.
+No, however, python programming and basic machine learning knowledge are recommended.
+Yes, however you can�t pass or fail. In order to complete the course you will have to submit a few multiple choice quizzes and model building project.
+Deep Learning � artificial neural networks, convolutional neural networks, recurrent neural networks
+All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler.
+For on campus study there are some qualifying criteria, which can be found in the T�s and C�s of our Money-Back Promise (on the website). For online study, anyone qualifies!
+This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure� Use our handy tool to find the course for you. Look for the link under �Find your tribe�
+We are SETA Accredited and our Data Science course is at NQF level 5. Upon completion of our courses, you will receive a completion certificate.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page.
+Webinars will be scheduled for content briefing, and, we have a really cool student chat platform which gives you access to the student community and course facilitators.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler.
+For on campus study there are some qualifying criteria, which can be found in the T�s and C�s of our Money-Back Promise (on the website). For online study, anyone qualifies!
+This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure� Use our handy tool to find the course for you. Look for the link under �Find your tribe�
+We are SETA Accredited and our Data Science course is at NQF level 5. Upon completion of our courses, you will receive a completion certificate.
+EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating.
+First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page.
+You will code using Python in a Jupyter Notebook environment.
+Yes. Even though there is complex maths behind some of the models, we won�t explicitly cover it. We will mainly cover how the algorithms work and how to implement them in Python. You are more than welcome to ask technical questions.
+No, however, python programming and basic machine learning knowledge are recommended.
+Yes, however you can�t pass or fail. In order to complete the course you will have to submit a few multiple choice quizzes and model building project.
+Deep Learning � artificial neural networks, convolutional neural networks, recurrent neural networks
+Prices: R7,500
+Prices: R2,500 per month
