@@ -18,7 +18,7 @@ This will benefit Explore by providing students with an alternative resource to 
 `cd haystack`
 
 5. Install editable to keep haystack up to date with the main repo
-`pip install --editable ~/Desktop/odin/odin/haystack`
+`pip install --editable ~/Desktop/odin/odin/haystack` # Change the file past as necessary #
 
 6. pip install haystack to ensure packages have been installed
 `pip install farm-haystack`
