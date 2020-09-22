@@ -13,7 +13,7 @@ from haystack.preprocessor.utils import convert_files_to_dicts, fetch_archive_fr
 
 logger = logging.getLogger(__name__)
 
-LAUNCH_ELASTICSEARCH = False # Set to False to add documents
+LAUNCH_ELASTICSEARCH = FALSE # Set to False to after first use to prevent unnecesarily launching multiple instances
 
 if LAUNCH_ELASTICSEARCH:
     logging.info("Starting Elasticsearch ...")
@@ -27,10 +27,10 @@ if LAUNCH_ELASTICSEARCH:
 
 # Connect to Elasticsearch
 index = "document"
-document_store = ElasticsearchDocumentStore(host="localhost", username="", password="", index="document")
+document_store = ElasticsearchDocumentStore(host="localhost", username="", password="", index=index)
 
 # Download data
-doc_dir = "data/explore-datascience.net"
+doc_dir = "../../data/explore-datascience.net"
 data_url = "https://github.com/Thabo-5/Chatbot-scraper/raw/master/txt_files/Cleaned/Cleaned.zip"
 fetch_archive_from_http(url=data_url, output_dir=doc_dir)
 
@@ -47,7 +47,7 @@ if LAUNCH_ELASTICSEARCH:
 	document_store.write_documents(dicts)
 else:
 	try:
-		document_store.delete_all_documents(index="documents")
+		document_store.delete_all_documents(index=index)
 	except:
 		pass
 	finally:
