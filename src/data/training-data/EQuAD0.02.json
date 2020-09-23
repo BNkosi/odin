@@ -1,0 +1,449 @@
+{
+  "data": [
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "What experience do Advanced Python practioners have?",
+              "id": 33989,
+              "answers": [
+                {
+                  "answer_id": 33339,
+                  "document_id": 39046,
+                  "question_id": 33989,
+                  "text": "Utilities, Retail and Financial ; with a solid academic background",
+                  "answer_start": 528,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is the Advanced python course build around?",
+              "id": 33990,
+              "answers": [
+                {
+                  "answer_id": 33343,
+                  "document_id": 39046,
+                  "question_id": 33990,
+                  "text": "solving actual problems whilst learning about the latest programming basics and techniques.",
+                  "answer_start": 651,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Will I get extended access to the Advanced Python course material?",
+              "id": 33994,
+              "answers": [
+                {
+                  "answer_id": 33347,
+                  "document_id": 39046,
+                  "question_id": 33994,
+                  "text": "Participants will have extended access to the material that are covered in the course,",
+                  "answer_start": 970,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Why are participants in the Advanced Python course given extended access?",
+              "id": 33995,
+              "answers": [
+                {
+                  "answer_id": 33349,
+                  "document_id": 39046,
+                  "question_id": 33995,
+                  "text": "allowing them to revisit the techniques to keep it fresh in their mind",
+                  "answer_start": 1057,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What will I learn in the Advanced Python course?",
+              "id": 33996,
+              "answers": [
+                {
+                  "answer_id": 33350,
+                  "document_id": 39046,
+                  "question_id": 33996,
+                  "text": "They will start by covering the basics such as working with data types and variables to more complex topics such as writing functions, using loops and conditional statements. They will also learn to import and use libraries. Students will cover the basics of programming in python - basic syntax, data types, debugging errors, using variables and logic statements, coding for-loops and writing functions. Able to work with various data types in Python - numbers, lists, strings, booleans, dictionaries, tuples, sets Able to use logic statements  Able to write for-loops and while-loops Able to debug errors Able to write functions to perform tasks more efficiently Students will utilise external libraries in python for data analysis - Numpy and Pandas. They will also write functions to select the most optimal football teams based on player attributes and positions. Able to work with numpy arrays  Able to work with pandas dataframes Able to manipulate pandas dataframes",
+                  "answer_start": 1233,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What do great teachers do?",
+              "id": 33997,
+              "answers": [
+                {
+                  "answer_id": 33352,
+                  "document_id": 39046,
+                  "question_id": 33997,
+                  "text": " inspire us to connect with topics on a profound level.",
+                  "answer_start": 2280,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Who is Jaco Jansen van Rensburg?",
+              "id": 33998,
+              "answers": [
+                {
+                  "answer_id": 33358,
+                  "document_id": 39046,
+                  "question_id": 33998,
+                  "text": "a Lead Data Scientist in the EXPLORE Data Science Academy.",
+                  "answer_start": 2503,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What career background does Jaco have?",
+              "id": 33999,
+              "answers": [
+                {
+                  "answer_id": 33360,
+                  "document_id": 39046,
+                  "question_id": 33999,
+                  "text": "scientific and industrial research",
+                  "answer_start": 2601,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What qualifications does Jaco hold?",
+              "id": 34000,
+              "answers": [
+                {
+                  "answer_id": 33362,
+                  "document_id": 39046,
+                  "question_id": 34000,
+                  "text": "a PhD in Mechanical Engineering with a focus on mathematical modelling and optimisation.",
+                  "answer_start": 2646,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Who is Dewald Botha?",
+              "id": 34001,
+              "answers": [
+                {
+                  "answer_id": 33363,
+                  "document_id": 39046,
+                  "question_id": 34001,
+                  "text": "an actuary and senior data scientist.",
+                  "answer_start": 2758,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Who was one of the first people to join Explore?",
+              "id": 34002,
+              "answers": [
+                {
+                  "answer_id": 33364,
+                  "document_id": 39046,
+                  "question_id": 34002,
+                  "text": "Dewald Botha",
+                  "answer_start": 2735,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "When did Dewald Join Explore?",
+              "id": 34003,
+              "answers": [
+                {
+                  "answer_id": 33365,
+                  "document_id": 39046,
+                  "question_id": 34003,
+                  "text": "2016",
+                  "answer_start": 2860,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "When does the next Advanced Python course start?",
+              "id": 33480,
+              "answers": [
+                {
+                  "answer_id": 32664,
+                  "document_id": 39046,
+                  "question_id": 33480,
+                  "text": "January 13, 2021",
+                  "answer_start": 179,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "When was Explore started?",
+              "id": 34004,
+              "answers": [
+                {
+                  "answer_id": 33366,
+                  "document_id": 39046,
+                  "question_id": 34004,
+                  "text": "2016",
+                  "answer_start": 2860,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "When is the next Advanced Python Course?",
+              "id": 33481,
+              "answers": [
+                {
+                  "answer_id": 32665,
+                  "document_id": 39046,
+                  "question_id": 33481,
+                  "text": "January 13, 2021 - April 14, 2021",
+                  "answer_start": 179,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What does Dewald Botha do?",
+              "id": 34005,
+              "answers": [
+                {
+                  "answer_id": 33367,
+                  "document_id": 39046,
+                  "question_id": 34005,
+                  "text": "He is managing EXPLORE's learning platform, Athena, and leading the corporate training",
+                  "answer_start": 2866,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Is January 13, 2021 the last Advanced Python course?",
+              "id": 33482,
+              "answers": [
+                {
+                  "answer_id": 32666,
+                  "document_id": 39046,
+                  "question_id": 33482,
+                  "text": "Applications will open again in the future",
+                  "answer_start": 213,
+                  "answer_category": "NO"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is corporate training?",
+              "id": 34006,
+              "answers": [
+                {
+                  "answer_id": 33369,
+                  "document_id": 39046,
+                  "question_id": 34006,
+                  "text": "2 to 3 day bootcamps to upskill employees",
+                  "answer_start": 2955,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is one of the most important skills for the future?",
+              "id": 33483,
+              "answers": [
+                {
+                  "answer_id": 32667,
+                  "document_id": 39046,
+                  "question_id": 33483,
+                  "text": "Programming",
+                  "answer_start": 307,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "How long are the corporate training bootcamps?",
+              "id": 34007,
+              "answers": [
+                {
+                  "answer_id": 33372,
+                  "document_id": 39046,
+                  "question_id": 34007,
+                  "text": "2 to 3 day",
+                  "answer_start": 2955,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is programming important for?",
+              "id": 34008,
+              "answers": [
+                {
+                  "answer_id": 33374,
+                  "document_id": 39046,
+                  "question_id": 34008,
+                  "text": " for speeding up processes as well as to automate, collect, manage, calculate, analyse processing of data and information accurately.",
+                  "answer_start": 3079,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is Python important for?",
+              "id": 34009,
+              "answers": [
+                {
+                  "answer_id": 33376,
+                  "document_id": 39046,
+                  "question_id": 34009,
+                  "text": "for speeding up processes as well as to automate, collect, manage, calculate, analyse processing of data and information accurately.",
+                  "answer_start": 3080,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Why should I learn to program?",
+              "id": 34010,
+              "answers": [
+                {
+                  "answer_id": 33377,
+                  "document_id": 39046,
+                  "question_id": 34010,
+                  "text": "because it develops structured and creative thinking, and teaches persistence.",
+                  "answer_start": 3235,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Why is Python one of the best languages?",
+              "id": 34011,
+              "answers": [
+                {
+                  "answer_id": 33378,
+                  "document_id": 39046,
+                  "question_id": 34011,
+                  "text": "One of the easiest programming languages to learn. It is open source with a lot of documentation and online help. It is used by many big companies such as Google and Netflix. It is free.",
+                  "answer_start": 3386,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Where do I apply?",
+              "id": 34012,
+              "answers": [
+                {
+                  "answer_id": 33379,
+                  "document_id": 39046,
+                  "question_id": 34012,
+                  "text": " www.explore-datascience.net",
+                  "answer_start": 3952,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Is the advanced python course accredited?",
+              "id": 34013,
+              "answers": [
+                {
+                  "answer_id": 33380,
+                  "document_id": 39046,
+                  "question_id": 34013,
+                  "text": "We are SETA Accredited",
+                  "answer_start": 4656,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is the advanced python course NQF level?",
+              "id": 34014,
+              "answers": [
+                {
+                  "answer_id": 33381,
+                  "document_id": 39046,
+                  "question_id": 34014,
+                  "text": "level 5",
+                  "answer_start": 4753,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Who much is the Advanced Python course once-off?",
+              "id": 34015,
+              "answers": [
+                {
+                  "answer_id": 33382,
+                  "document_id": 39046,
+                  "question_id": 34015,
+                  "text": " R4,000",
+                  "answer_start": 11009,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "How much is the Advanced python course monthly?",
+              "id": 34016,
+              "answers": [
+                {
+                  "answer_id": 33383,
+                  "document_id": 39046,
+                  "question_id": 34016,
+                  "text": "R1,400 per month",
+                  "answer_start": 11025,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "Advanced Python Self-funded Sponsored Online: Part-time Self-funded Sponsored Online: Part-time Become a coding ninja by learning the most used language in the world. Next Course January 13, 2021 - April 14, 2021 Applications will open again in the future Overview Learn to automate processes and analysis. Programming is one of the most important job skills for the future. Guided by some of the Best Our support team have been there and done that - they are experienced practitioners of data science in various fields such as Utilities, Retail and Financial ; with a solid academic background. Learn How to Solve Problems The course is built around solving actual problems whilst learning about the latest programming basics and techniques. Apply the skills EXPLORE prides itself on the practicality of the course. Participants must be able to apply the skills or knowledge that they acquired in your everyday job to impact their business. Extended access to Material Participants will have extended access to the material that are covered in the course, allowing them to revisit the techniques to keep it fresh in their mind. Curriculum Start thinking like a programmer Participants will learn how to utilise the power of Python. They will start by covering the basics such as working with data types and variables to more complex topics such as writing functions, using loops and conditional statements. They will also learn to import and use libraries. Students will cover the basics of programming in python - basic syntax, data types, debugging errors, using variables and logic statements, coding for-loops and writing functions. Able to work with various data types in Python - numbers, lists, strings, booleans, dictionaries, tuples, sets Able to use logic statements  Able to write for-loops and while-loops Able to debug errors Able to write functions to perform tasks more efficiently Students will utilise external libraries in python for data analysis - Numpy and Pandas. They will also write functions to select the most optimal football teams based on player attributes and positions. Able to work with numpy arrays  Able to work with pandas dataframes Able to manipulate pandas dataframes Instructors Meet your teachers We take teaching seriously. Great teachers inspire us to connect with topics on a profound level. With experience in the field and the classroom, our data science instructors are unmatched. Simply put: students learn from the best. Jaco Jansen van Rensburg Jaco is a Lead Data Scientist in the EXPLORE Data Science Academy. He has spent the bulk of his career on scientific and industrial research and holds a PhD in Mechanical Engineering with a focus on mathematical modelling and optimisation. Dewald Botha Dewald is an actuary and senior data scientist. He was one of the first brave souls to join the EXPLORE ship in 2016. He is managing EXPLORE's learning platform, Athena, and leading the corporate training - 2 to 3 day bootcamps to upskill employees. Master one of the most sought after skills of the future Programming is important for speeding up processes as well as to automate, collect, manage, calculate, analyse processing of data and information accurately. People should program because it develops structured and creative thinking, and teaches persistence. Python is one of the best languages to learn for the following reasons: One of the easiest programming languages to learn. It is open source with a lot of documentation and online help. It is used by many big companies such as Google and Netflix. It is free. Course Pricing Find the right payment plan for you Upfront Payment One upfront payment, payable before the start of the course Course Date: January 13, 2021 - April 14, 2021 Monthly Payment 3 Monthly payments, payable in advance at the start of each month Course Date: January 13, 2021 - April 14, 2021 You have questions; we have answers All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler. For on campus study there are some qualifying criteria, which can be found in the terms and conditions of our Money-Back Promise (on the website). For online study, anyone qualifies! This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure? Use our handy tool to find the course for you. Look for the link under Find your tribe We are SETA Accredited and our Data Science course is at National Qualifications Framework (NQF) level 5. Upon completion of our courses, you will receive a completion certificate. EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating. First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page. Webinars will be scheduled for content briefing, and, we have a really cool student chat platform which gives you access to the student community and course facilitators. EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating. All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler. For on campus study there are some qualifying criteria, which can be found in the terms and conditions of our Money-Back Promise (on the website). For online study, anyone qualifies! This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure? Use our handy tool to find the course for you. Look for the link under Find your tribe We are SETA Accredited and our Data Science course is at National Qualifications Framework (NQF) level 5. Upon completion of our courses, you will receive a completion certificate. EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating. First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page. You will use Python in the Jupyter Notebook environment for the duration of the course. You will write functions to select the optimal football team based on player positions and attributes. No. Only a hunger to learn to code. No, however in order to complete the course you will have to submit a few multiple choice quizzes and a python script. All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler. For on campus study there are some qualifying criteria, which can be found in the terms and conditions of our Money-Back Promise (on the website). For online study, anyone qualifies! This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure? Use our handy tool to find the course for you. Look for the link under Find your tribe We are SETA Accredited and our Data Science course is at National Qualifications Framework (NQF) level 5. Upon completion of our courses, you will receive a completion certificate. EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating. First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page. Webinars will be scheduled for content briefing, and, we have a really cool student chat platform which gives you access to the student community and course facilitators. EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating. All applications happen via our website: www.explore-datascience.net. Select the course and location (on campus or online) which works for you and click Apply Now. For on campus study, there are various requirements, for online applications it is simpler. For on campus study there are some qualifying criteria, which can be found in the terms and conditions of our Money-Back Promise (on the website). For online study, anyone qualifies! This depends on what your constraints are - can you study on campus, full time, or do you need the flexibility of online study. On campus is the premium experience, backed up with a Money-Back Promise! Still not sure? Use our handy tool to find the course for you. Look for the link under Find your tribe We are SETA Accredited and our Data Science course is at National Qualifications Framework (NQF) level 5. Upon completion of our courses, you will receive a completion certificate. EXPLORE Data Science Academy graduates are Amazing People, doing Amazing Things. Our Alumni are highly sought after and 97% of them have found industry related employment within 6 months of graduating. First stop is to check your Spam or Junk mail folders. Sometimes the internet gremlins hide our emails there. Alternatively, log back into your student profile and check that you completed all the steps for application. Look for the sign-in button on the top right of the website page. You will use Python in the Jupyter Notebook environment for the duration of the course. You will write functions to select the optimal football team based on player positions and attributes. No. Only a hunger to learn to code. No, however in order to complete the course you will have to submit a few multiple choice quizzes and a python script. Prices: R4,000 Prices: R1,400 per month",
+          "document_id": 39046
+        }
+      ]
+    }
+  ]
+}
