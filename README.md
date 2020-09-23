@@ -77,12 +77,14 @@ b. [Windows 10 build 18563+](https://docs.docker.com/docker-for-windows/install/
 
 ## Rest API
 
-**If this is your first time running this, skip step 1**
+**If this is your first time running this, skip step 1 and 2**
 
-1. Run a single Elasticsearch node using docker:
-`docker run -d -p 9200:9200 -e "discovery.type=single-node" elasticsearch:7.6.2`
+1. Check the name of exited Docker container
+`docke ps -a`
+2. Start the container:
+`docker start <name>`
 
-2. To serve the API run:
+3. To serve the API run:
 `gunicorn rest_api.application:app -b 0.0.0.0:8000 -k uvicorn.workers.UvicornWorker -t 300`
 
 3. You will find the Swagger API documentation at http://127.0.0.1:8000/docs.
