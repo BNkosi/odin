@@ -26,12 +26,13 @@ from haystack.reader.farm import FARMReader
 # We initialize a reader as a base model and fine-tune it on our own custom dataset (should be in SQuAD-like format).
 # We recommend using a base model that was trained on SQuAD or a similar QA dataset before to benefit from Transfer
 # Learning effects.
-
+model = "distilbert-base-cased-distilled-squad"
 #**Recommendation: Run training on a GPU. To do so change the `use_gpu` arguments below to `True`
-reader = FARMReader(model_name_or_path="distilbert-base-uncased-distilled-squad", use_gpu=False)
-train_data = "data/training-data"
+reader = FARMReader(model_name_or_path=model, use_gpu=False)
+train_data = "../data/training-data"
+filename = "EQuAD0.02.json"
 # train_data = "PATH/TO_YOUR/TRAIN_DATA" 
-reader.train(data_dir=train_data, train_filename="EQuAD0.01.json", use_gpu=False, n_epochs=2, save_dir="../../saved_models/distilbert-base-uncased-distilled-squad", batch_size = 2)
+reader.train(data_dir=train_data, train_filename=filename, use_gpu=False, n_epochs=2, save_dir=f"../../{model}-EQuAD0.02", batch_size = 10)
 
 # Saving the model happens automatically at the end of training into the `save_dir` you specified
 # However, you could also save a reader manually again via:

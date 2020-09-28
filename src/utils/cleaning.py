@@ -127,6 +127,7 @@ def clean_website_text(text: str()):
     text = re.sub("They�re", "They are", text)
     text = re.sub("they�re", "they are", text)
     text = re.sub("customer�s", "customer's", text)
+    text = re.sub('\\"', "", text)
     text = re.sub(" � ", " - ", text)
     text = re.sub("�", "", text)    
     # Join text into one line

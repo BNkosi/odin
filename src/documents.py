@@ -13,7 +13,7 @@ from haystack.preprocessor.utils import convert_files_to_dicts, fetch_archive_fr
 
 logger = logging.getLogger(__name__)
 
-LAUNCH_ELASTICSEARCH = FALSE # Set to False to after first use to prevent unnecesarily launching multiple instances
+LAUNCH_ELASTICSEARCH = False # Set to False to after first use to prevent unnecesarily launching multiple instances
 
 if LAUNCH_ELASTICSEARCH:
     logging.info("Starting Elasticsearch ...")
