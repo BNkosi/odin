@@ -26,17 +26,14 @@ from haystack.reader.farm import FARMReader
 # We initialize a reader as a base model and fine-tune it on our own custom dataset (should be in SQuAD-like format).
 # We recommend using a base model that was trained on SQuAD or a similar QA dataset before to benefit from Transfer
 # Learning effects.
-model = "distilbert-base-cased-distilled-squad"
-#**Recommendation: Run training on a GPU. To do so change the `use_gpu` arguments below to `True`
-reader = FARMReader(model_name_or_path=model, use_gpu=False)
-train_data = "../data/training-data"
-filename = "EQuAD0.02.json"
+reader = FARMReader(model_name_or_path="deepset/roberta-base-squad2", use_gpu=True)
+# train_data = "data"
 # train_data = "PATH/TO_YOUR/TRAIN_DATA" 
-reader.train(data_dir=train_data, train_filename=filename, use_gpu=False, n_epochs=2, save_dir=f"../../{model}-EQuAD0.02", batch_size = 10)
+reader.train(data_dir=".", train_filename="EQuAD2.json", use_gpu=True, n_epochs=1, save_dir="saved_models")
 
 # Saving the model happens automatically at the end of training into the `save_dir` you specified
 # However, you could also save a reader manually again via:
-# reader.save(directory="../haystack/rest_api/odin_models")
+reader.save(directory="saved_models")
 
 # If you want to load it at a later point, just do:
-# new_reader = FARMReader(model_name_or_path="zeus_test1")
+# new_reader = FARMReader(model_name_or_path="my_model")
