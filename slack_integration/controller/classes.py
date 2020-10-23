@@ -2,6 +2,11 @@ import requests
 import json
 import re
 from time import time
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.feature_extraction.text import TfidfVectorizer
+from nltk import ngrams
+import pandas as pd
+from sklearn.neighbors import NearestNeighbors
 
 class WebsiteOnboarding:
     """
@@ -127,7 +132,23 @@ class QuestionAnswering:
         self.username = "Odin"
         self.icon_emoji = ":page_facing_up:"
         self.timestamp = ""
-        
+        self.faq = set(["What are the fundamental values at explore?",
+             "What are the payment plans",
+             "Which course is best for me?",
+             "Which course should I take?",
+             "When is the next Advanced Python course?", 
+             "When is the next coding challenge?",
+             "How much does the Data Science course cost?",
+             "How much is the Advanced Python course?",
+             "How much is the Data Analysis course?"
+            ])
+        self.training_questions = pd.Series(list(self.faq))
+        self.vectorizer = TfidfVectorizer(min_df=1, analyzer='char', ngram_range=(1,5), lowercase=True)
+        self.tfidf = vectorizer.fit_transform(questions)
+        self.nbrs = NearestNeighbors(n_neighbors=1, n_jobs=-1).fit(tfidf)
+
+    DIVIDER_BLOCK = {"type": "divider"}
+
     def get_answer_payload(self):
         return {
             "ts": self.timestamp,
@@ -136,9 +157,31 @@ class QuestionAnswering:
             "icon_emoji": self.icon_emoji,
             "blocks": [
                 *self._get_answer_block(),
+                self.DIVIDER_BLOCK,
+                *self._get_sim_questions()
             ],
         }
-    
+
+
+
+    def _get_sim_questions(self):
+        distances, indices = self.getNearestN([self.question])
+        text = (
+            "Did you mean:\n"
+            f"{self.training_questions[indices[0]].tolist()[0]"
+            f"{self.training_questions[indices[0]].tolist()[1]"
+            f"{self.training_questions[indices[0]].tolist()[2]"
+            "None of the above"
+        )
+        information = (None)
+        return self._get_task_block(text, information)
+
+    @staticmethod    
+    def getNearestN(query):
+        queryTFIDF_ = vectorizer.transform(query)
+        distances, indices = nbrs.kneighbors(queryTFIDF_, n_neighbors=3)
+        return distances, indices
+
     # @staticmethod
     def _get_answer_block(self):
         # Answers
