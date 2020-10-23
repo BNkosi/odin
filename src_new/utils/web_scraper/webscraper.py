@@ -65,7 +65,7 @@ for i in range(len(urls)):
     page = requests.get(urls[i])
     soup = BeautifulSoup(page.content, 'html.parser')
     name = str(urls[i]).replace('https://explore-datascience.net', 'explore').replace('/', '_')
-    f = open("Data/text/{}.txt".format(name), "a+", encoding="utf-8")
+    f = open("data/documents/{}.txt".format(name), "a+", encoding="utf-8")
     f.write('{}\n'.format(str(urls[i])))
     for items in soup.find_all():
         all_text = [item.text for item in items.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'a', 'p'])]
@@ -107,7 +107,7 @@ for i in pdfs:
     pdf = pdfplumber.open(BytesIO(rq.content))
     name = "".join(re.findall(r'pdf/(.*?).pdf', str(i)))
     name = name.replace('careers/', '')
-    myfile = io.open('Data/pdf/' + name + ".txt", "w", encoding="utf-8")
+    myfile = io.open('data/documents/' + name + ".txt", "w", encoding="utf-8")
     for i in range(len(pdf.pages)):
         p = pdf.pages[i]
         text = p.extract_text()

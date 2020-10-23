@@ -199,13 +199,13 @@ def strip_tags(html):
     s.feed(html)
     return s.get_data()
 
-directory = 'Data/text'
+directory = 'data/documents'
 faq_dict = {}
 counter = 0
 
 for filename in os.listdir(directory):
     if (filename.endswith(".txt") and 'blog_' not in filename):
-        f = open('utils/Data/text/{}'.format(filename), 'r+', encoding='utf-8')
+        f = open('utils/data/documents/{}'.format(filename), 'r+', encoding='utf-8')
         string_list = f.readlines()
         
         if len(string_list) > 0:
@@ -282,7 +282,7 @@ for filename in os.listdir(directory):
 
             # Write cleaned text data to new text file
             if len(final_lines) > 0:
-                f_cl = open('utils/Data/clean_text/cleaned_{}'.format(filename), 'w+', encoding='utf-8')
+                f_cl = open('utils/data/documents/cleaned_{}'.format(filename), 'w+', encoding='utf-8')
                 for i in range(len(final_lines)):
                     f_cl.write(final_lines[i])
                 f_cl.close()
