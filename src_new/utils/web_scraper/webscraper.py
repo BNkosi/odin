@@ -1,5 +1,5 @@
 # Import libraries
-pip install pdfplumber
+#pip install pdfplumber
 import io
 import re
 import time
