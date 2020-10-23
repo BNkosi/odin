@@ -144,8 +144,9 @@ class QuestionAnswering:
             ])
         self.training_questions = pd.Series(list(self.faq))
         self.vectorizer = TfidfVectorizer(min_df=1, analyzer='char', ngram_range=(1,5), lowercase=True)
-        self.tfidf = vectorizer.fit_transform(questions)
-        self.nbrs = NearestNeighbors(n_neighbors=1, n_jobs=-1).fit(tfidf)
+        self.tfidf = self.vectorizer.fit_transform(self.training_questions)
+        self.nbrs = NearestNeighbors(n_neighbors=1, n_jobs=-1).fit(self.tfidf)
+        self.n_sim_questions = 3
 
     DIVIDER_BLOCK = {"type": "divider"}
 
@@ -165,21 +166,22 @@ class QuestionAnswering:
 
 
     def _get_sim_questions(self):
-        distances, indices = self.getNearestN([self.question])
+        distances, indices = self.GetNearestN(query=[self.question], n=self.n_sim_questions)
+        results = self.training_questions[indices[0]].tolist()
         text = (
             "Did you mean:\n"
-            f"{self.training_questions[indices[0]].tolist()[0]"
-            f"{self.training_questions[indices[0]].tolist()[1]"
-            f"{self.training_questions[indices[0]].tolist()[2]"
+            f"{results[0]}\n"
+            f"{results[1]}\n"
+            f"{results[2]}\n"
             "None of the above"
         )
-        information = (None)
+        information = ("None")
         return self._get_task_block(text, information)
 
-    @staticmethod    
-    def getNearestN(query):
-        queryTFIDF_ = vectorizer.transform(query)
-        distances, indices = nbrs.kneighbors(queryTFIDF_, n_neighbors=3)
+    # @staticmethod    
+    def GetNearestN(self, query, n):
+        queryTFIDF_ = self.vectorizer.transform(query)
+        distances, indices = self.nbrs.kneighbors(queryTFIDF_, n_neighbors=n)
         return distances, indices
 
     # @staticmethod
