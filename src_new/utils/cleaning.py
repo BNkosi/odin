@@ -5,6 +5,9 @@
 
 import re
 import os
+import numpy as np
+import pandas as pd
+import json
 
 def clean_website_text(text: str()):
     # removing lines starting with "<", ">", "="
@@ -172,3 +175,117 @@ def clean_wiki_text(text: str) -> str:
     text = re.sub(r"(==.*==\n\n\n)", "", text)
 
     return text
+
+# Importing libraries which will assist in removing the html tags
+from io import StringIO
+from html.parser import HTMLParser
+
+"""Remove html tags from messages"""
+
+class MLStripper(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.reset()
+        self.strict = False
+        self.convert_charrefs= True
+        self.text = StringIO()
+    def handle_data(self, d):
+        self.text.write(d)
+    def get_data(self):
+        return self.text.getvalue()
+
+def strip_tags(html):
+    s = MLStripper()
+    s.feed(html)
+    return s.get_data()
+
+directory = 'Data/text'
+faq_dict = {}
+counter = 0
+
+for filename in os.listdir(directory):
+    if (filename.endswith(".txt") and 'blog_' not in filename):
+        f = open('utils/Data/text/{}'.format(filename), 'r+', encoding='utf-8')
+        string_list = f.readlines()
+        
+        if len(string_list) > 0:
+            
+            # Cleans blank lines and random sub-headings from the text (Part 1 of 2)
+            new_lines = [line for line in string_list if line != '\n' and line != ' \n']
+            new_lines = [strip_tags(line) for line in new_lines]
+            new_lines = [re.sub(' +', ' ', line) for line in new_lines]
+            new_lines = [re.sub('\xa0', '', line) for line in new_lines]
+            for i in range(len(new_lines) - 1):
+                if new_lines[i] == new_lines[i+1]:
+                    new_lines[i] = ' '
+            for i in range(len(new_lines)):
+                if new_lines[i].startswith(' '):
+                    new_lines[i] = ' '
+            new_lines = [line for line in new_lines if line != ' ']
+
+            try:
+                # Look for questions that aren't in headings
+                for i in range(len(new_lines)):
+                    if '?' in new_lines[i]:
+                        if new_lines[i] in faq_dict.keys():
+                            a = faq_dict[new_lines[i]]
+                            if new_lines[i + 1] not in a:
+                                a.append(new_lines[i + 1])
+                                faq_dict[new_lines[i]] = a
+                        else:
+                            faq_dict[new_lines[i]] = [new_lines[i + 1]]
+
+                # Look for questions in H2 headings
+                    if ('?' in new_lines[i] and 'H2' in new_lines[i]):
+                        key = new_lines[i]
+                        vals = []
+                        j = i + 1
+                        while 'H2' not in new_lines[j]:
+                            vals.append(new_lines[j])
+                            j += 1
+                        if key in faq_dict.keys():
+                            a = faq_dict[key]
+                            for k in range(len(vals)):
+                                if vals[k] not in a:
+                                    a.append(vals[k])
+                                    faq_dict[key] = a
+                        else:
+                            faq_dict[key] = vals
+
+                # Look for questions in H3 headings
+                    if ('?' in new_lines[i] and 'H3' in new_lines[i]):
+                        key = new_lines[i]
+                        vals = []
+                        j = i + 1
+                        while 'H2' not in new_lines[j]:
+                            vals.append(new_lines[j])
+                            j += 1
+                        if key in faq_dict.keys():
+                            a = faq_dict[key]
+                            for k in range(len(vals)):
+                                if vals[k] not in a:
+                                    a.append(vals[k])
+                                    faq_dict[key] = a
+                        else:
+                            faq_dict[key] = vals
+            except:
+                print('Skipped file: {}'.format(filename))
+            
+            # Cleans blank lines and random sub-headings from the text (Part 2 of 2)
+            new_lines = [line for line in new_lines if line not in faq_dict.keys() and line not in faq_dict.values() and 'FAQ' not in line]
+            new_lines = [re.sub('H\d: ', '', line) for line in new_lines]
+            new_lines = [re.sub('Paragraph: ', '', line) for line in new_lines]
+            new_lines = [line for line in new_lines if line != '\n' and line != ' \n']
+            final_lines = []
+            final_lines = [line for line in new_lines if line not in final_lines]
+            final_lines = list(dict.fromkeys(final_lines))
+
+            # Write cleaned text data to new text file
+            if len(final_lines) > 0:
+                f_cl = open('utils/Data/clean_text/cleaned_{}'.format(filename), 'w+', encoding='utf-8')
+                for i in range(len(final_lines)):
+                    f_cl.write(final_lines[i])
+                f_cl.close()
+        f.close()
+    counter += 1
+    print('Complete {0} {1}'.format(counter, filename))
