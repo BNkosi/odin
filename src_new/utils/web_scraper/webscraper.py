@@ -1,5 +1,6 @@
 # Import libraries
-pip install pdfplumber
+# pip install pdfplumber
+import os
 import io
 import re
 import time
@@ -65,7 +66,9 @@ for i in range(len(urls)):
     page = requests.get(urls[i])
     soup = BeautifulSoup(page.content, 'html.parser')
     name = str(urls[i]).replace('https://explore-datascience.net', 'explore').replace('/', '_')
-    f = open("data/documents/{}.txt".format(name), "a+", encoding="utf-8")
+    if os.path.exists("src_new/data/documents/{}.txt".format(name)):
+        os.remove("src_new/data/documents/{}.txt".format(name))
+    f = open("src_new/data/documents/{}.txt".format(name), "x", encoding="utf-8")
     f.write('{}\n'.format(str(urls[i])))
     for items in soup.find_all():
         all_text = [item.text for item in items.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'a', 'p'])]
@@ -73,7 +76,7 @@ for i in range(len(urls)):
             f.write('{}\n'.format(j))
     f.close()
     a += 1
-print('Completed: {1} of {2}'.format(a, len(urls)))
+# print('Completed: {1} of {2}'.format(a, len(urls)))
 
 pdfs = ['https://explore-datascience.net/pdf/EDSA_Course_Outline.pdf?12.4',
  'https://explore-datascience.net/pdf/Data_Analytics.pdf',
@@ -107,7 +110,7 @@ for i in pdfs:
     pdf = pdfplumber.open(BytesIO(rq.content))
     name = "".join(re.findall(r'pdf/(.*?).pdf', str(i)))
     name = name.replace('careers/', '')
-    myfile = io.open('data/documents/' + name + ".txt", "w", encoding="utf-8")
+    myfile = io.open('src_new/data/documents/' + name + ".txt", "w", encoding="utf-8")
     for i in range(len(pdf.pages)):
         p = pdf.pages[i]
         text = p.extract_text()
@@ -115,4 +118,4 @@ for i in pdfs:
     myfile.close()
     a += 1
 
-print('Completed: {1} of {2}'.format(a, len(pdfs)))
+# print('Completed: {1} of {2}'.format(a, len(pdfs)))

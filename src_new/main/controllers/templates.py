@@ -29,6 +29,11 @@ class QuestionAnswering:
         self.icon_emoji = ":zap:"
         self.timestamp = ""
         # Add disambiguation stuffies here
+        self.faq = set(
+            [
+                "What are the fundamental values at explore?"
+            ]
+        )
 
     def get_answer_payload(self):
         return {
