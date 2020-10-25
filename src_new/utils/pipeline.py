@@ -5,7 +5,6 @@ import logging
 import subprocess
 import time
 
-# Scrape data
 
 def scrape():
     logging.info("Scraping explore-datascience.net...")
