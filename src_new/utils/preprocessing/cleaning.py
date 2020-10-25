@@ -199,13 +199,14 @@ def strip_tags(html):
     s.feed(html)
     return s.get_data()
 
-directory = 'data/documents'
+
+directory = '../../src_new/data/documents/'
 faq_dict = {}
 counter = 0
 
 for filename in os.listdir(directory):
     if (filename.endswith(".txt") and 'blog_' not in filename):
-        f = open('utils/data/documents/{}'.format(filename), 'r+', encoding='utf-8')
+        f = open(f'{directory}{filename}', 'r+', encoding='utf-8')
         string_list = f.readlines()
         
         if len(string_list) > 0:
@@ -273,7 +274,7 @@ for filename in os.listdir(directory):
             
             # Cleans blank lines and random sub-headings from the text (Part 2 of 2)
             new_lines = [line for line in new_lines if line not in faq_dict.keys() and line not in faq_dict.values() and 'FAQ' not in line]
-            new_lines = [re.sub('H\d: ', '', line) for line in new_lines]
+            new_lines = [re.sub(r'H\d: ', '', line) for line in new_lines]
             new_lines = [re.sub('Paragraph: ', '', line) for line in new_lines]
             new_lines = [line for line in new_lines if line != '\n' and line != ' \n']
             final_lines = []
@@ -282,7 +283,7 @@ for filename in os.listdir(directory):
 
             # Write cleaned text data to new text file
             if len(final_lines) > 0:
-                f_cl = open('utils/data/documents/cleaned_{}'.format(filename), 'w+', encoding='utf-8')
+                f_cl = open(f'{directory}{filename}', 'w+', encoding='utf-8')
                 for i in range(len(final_lines)):
                     f_cl.write(final_lines[i])
                 f_cl.close()
