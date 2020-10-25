@@ -54,9 +54,10 @@ class QuestionAnswering:
         try:
             answer = response['results'][0]['answers'][0]['answer']
             title = response['results'][0]['answers'][0]['meta']['name']
+            link = response['results'][0]['answers'][0]['meta']['link']
             conf = response['results'][0]['answers'][0]['probability']
             context = response['results'][0]['answers'][0]['context']
-            # print(response)
+            print(link)
             text = (
             # f"*Question:*\n\n{self.question}\n\n"
             f"*Answer:*\n\n{answer}.\n\n"
@@ -65,29 +66,27 @@ class QuestionAnswering:
             # f"*Extract*:\n\n{context}"
             )
             information = (
-                ":information_source: *<https://explore-datascience.net|"
+                f":information_source: *<{link}|"
                 f"{title}>*"
                 )
             return self._get_task_block(text, information)
         except:
-            text = (
-                "I don't have an answer to that."
-                "Would you like to be notified when an answer becomes available?"
-                )
-            information = (
-                "Notify me|"
-                f"yes/no"
-                )
-            return self._get_no_answer_block(text, information)
+            pass
+        #     text = (
+        #         "I don't have an answer to that."
+        #         "Would you like to be notified when an answer becomes available?"
+        #         )
+        #     information = (
+        #         "Notify me|"
+        #         f"yes/no"
+        #         )
+        #     return self._get_no_answer_block(text, information)
         
    
     @staticmethod
     def request_answer(question):
         url = 'http://127.0.0.1:8000/models/1/doc-qa'
         pay = {"questions": [re.sub("'", "",question)], "top_k_retriever": 3, "top_k_reader": 1}
-        # data = '{"questions": ["What are the fundamental values at explore?"]}'
-        # data = str({"questions": [question]})
-        # print(url+ " " +data)
         response = requests.post(url, json.dumps(pay)).json()
         print(response)
         return response

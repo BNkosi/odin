@@ -1,0 +1,151 @@
+https://explore-datascience.net/course/info/8/4
+Long Courses
+Full time On Campus Qualifications
+Data Science
+Part time Online Qualifications
+Data Engineering
+Data Analytics
+Business Intelligence
+NANO-Qualifications
+Advanced Visualisation
+Data Visualisation
+Machine Learning
+Data Pipelines And Automation
+Data Science For Analysts
+See all courses
+Short Courses
+PART-TIME Online DIGITAL SKILLS
+Digital Skills
+SQL For Data Science
+Python For Data Science
+Advanced Classification
+Visualisation
+Advanced Regression
+Unsupervised Learning
+Introduction To Data Science
+Cloud Computing
+Data Warehousing And Lakes
+Data Automation
+Alumni
+Student Reviews
+Hire an EXPLORER
+About Us
+Our Courses
+Our Values
+Enterprise
+Summary
+Build a Pipeline
+Contact Us
+Sign In 
+Online: Part-time
+Learn how to tell a story with your data.
+Visually displaying data in an elegant way to tell a complex story is becoming one of the most sought after skills in the data science industry. Take your Visualisation skills to the next level!
+Enroll now
+5 months
+At 10 hrs/week
+July 5, 2021
+Basic Analytical Background
+Upcoming Courses
+Courses coming soon
+Our expert scientists have crafted world-class content to ensure learning happens in an engaging, friendly and professional way. Each course allows for varied levels of experience and expertise.
+Learning with EXPLORE isn't simply studying, it's an experience!
+Try it for free
+Overview
+Why to Join
+Course Introduction
+Curriculum
+Explore Services
+Instructors
+Course Pricing
+Applications Closed
+Courses Info
+Boost your employability with a portfolio of data skills
+EXPLORE's comprehensive nano-qualifications are SETA accredited and offer a cluster of data skills which equip learners to tackle specific problems or projects. Skill sets are curated to ensure they can be applied in the workplace from day 1.
+You'll learn theory, tools and technology in a fast-paced and fun online environment, supported by wise and generous tech specialists who delight in learning.
+Join the ranks of thousands of EXPLORERs who have made waves in the workplace.
+Tailor your data management, analytics and visualisations to answer the specific questions being asked by different areas of the organisation - from Finance to Marketing, knowing your audience, and what is important to them is vital for speed and productivity.
+Learners will be able to direct their data skills to meet the needs of the organisation quickly and impressively!
+Learn how to build dashboards that aggregate time series and financial statement information into intuitive, useful and actionable insights. Predict future values based on financial forecasting models to do scenario planning.
+Analyse large volumes of data by finding the key influencers. Learn how to focus on the most important visuals and insights by embedding state of the art Predictive Analytics and Python into Power-BI
+Drill down into what clients are saying about a brand or product on social platforms. Gain insights on where customers are located and how they respond to promotions. Compare marketing successes, failures and customer sentiment over time.
+Fire usually moves faster uphill than downhill
+Join the sexiest career of the 21st Century
+Data roles are the fastest growing careers with some of the highest paid salaries on offer.
+Work with the Best
+Our facilitators and support team have been there and done that - experienced practitioners with a range of data mastery in Utilities, Retail and Financial Services. They are your champions and cheerleaders.
+Learn How to Solve Problems
+The course is built around solving actual problems, whilst learning the latest tools and technologies. Based on the issues that our renowned scientists have helped to solve, each course was designed by a team with years of experience at a global level.
+Apply Your Skills
+EXPLORE prides itself on the practicality of its courses. Participants must be able to apply the skills and knowledge that they acquire to do Amazing Things. Specialists have put their incredible skills together to ensure that learning adds value and not just 'nice-to-know'.
+Extended Access to Material
+Participants will have extended access to the material that is covered in the course, allowing them to revisit the techniques whenever they choose to.
+Top Student Reviews
+I got to see how valuable data is because the way the content is structured you get to "EXPLORE" how to tackle some real-life problems (using recent data) for insights and possible solutions.
+Lindokuhle Pearlson Moloi
+I now have a different approach to work, a systematic approach governed by EXPLORE’s principles, which enables efficiency. I'm more open to critique and correction, which improves my work.
+Maggy Mhango
+A highlight was meeting some of the most amazing and intelligent people and doing some of the things I'd normally think are impossible!
+Karabo Leso
+Engaging, interactive and entertaining learning
+At EXPLORE we firmly believe that learning can be fun, even when the content is complex. Our highly experienced course designers are able to share their insights and wisdom through our innovative learning platform and video-first approach. Take a look at what you can expect when joining us:
+Power BI
+Bring your data to life using beautiful dashboarding techniques
+Predictive Modelling
+Open the door to a world of possibility using predictive techniques, our scientists will guide you on this journey
+Course Curriculum
+Carefully created and curated content ensures that learning is always relevant and practical. Our experienced Scientists promise you only the best experience.
+Program Offerings
+Enrollment Includes:
+Build dashboards that aggregate time series and financial statement information into intuitive, useful and actionable insights
+Analyse large volumes of data by finding the key influencers.
+Learn how to focus on the most important visuals and insights
+Compare marketing successes, failures and customer sentiment over time.
+EXPLORE Services
+EXPLORE has your best interests at heart. We want to give you the best chance of success!
+A Proven Job Search Framework
+After years of helping students get hired, we’ve developed a proven framework for leading a successful job search. Nearly every single student who has followed these guidelines has been hired.
+An exciting CV, interview preparation, technical question examples and a structured way to search for and assess potential opportunities. With EXPLORE at your side, you can't go wrong!
+Know More
+THRIVE
+EXPLORE's personal development curriculum, THRIVE, forms part of each student's learning journey. Creative, fun content delivered through a cutting-edge platform exposes participants to a host of additional content to support, guide, stretch and stimulate learning.
+No-one should suffer in silence, nor miss an opportunity to grow, learn and develop. Professional coaches are on hand to support students in need. EXPLORE's in-house crafted curriculum ensures that each student is set up for success in their careers and lives
+Dedicated Career Coaching
+Every student has access to a dedicated career coach who will mentor students through an effective job search via resume review, mock interviews, and strategies for building a job opportunity pipeline and getting a foot in the door at top-choice companies.
+Securing employment opportunities is a dual responsibility - EXPLORE will help you find a great job, but you need to play your part as well. We partner with learners to give them the best chance of landing their dream role!
+Meet our EXPLORERS
+We take teaching seriously. Great teachers inspire us to connect with topics on a profound level. With experience in the field and the classroom, our course designers and instructors are unmatched. Simply put: students learn from the best.
+Dewald Botha
+Course designer
+Dewald is an actuary and senior data scientist. He was one of the first brave souls to join the EXPLORE ship.. He helped design and manage EXPLORE's learning platform, and is now leading it’s Financial Services business.
+Jonathan Gerrand
+Lead Facilitator
+Jonathan is an electrical engineer specialising in biomedical image processing and machine learning (MSc). Having been a founding member of the Data Science for Impact and Decision Enablement (DSIDE) program within the CSIR, he is passionate about teaching, innovating for good, and equipping others to reason within a data driven world. Jonathan loves the outdoors, is unashamedly nerdy, and relishes a compelling debate.
+Trevor Senyane
+Facilitator
+Trevor is a Data Science, Machine learning and Artificial intelligence enthusiast.He has a Bsc degree majoring in Physics and Mathematics. He is a dynamic problem solver who recognizes that problems have to be approached at a 3rd dimensional point of view.Trevor is an omnivert and adventurist who enjoys exploring parts of the world.
+Find The Right Payment Plan For You
+Upfront Payment
+Pay your fees before the course starts and enjoy a cost saving.No deposit.No complexity.Just one payment. Simple.
+Pay as you Learn
+Monthly payments unlock your next module of learning.Fees payable in advance each month Seamless payments by automated deductionsMake one payment, we do the rest!
+PAY AS YOU LEARN
+Awesome, glad to have you on board!
+Next
+We’ve got your interests at heart
+At EXPLORE we believe that talented individuals should be able to access opportunities to uncover their potential and realise their dreams. We are dedicated to make learning more accessible. 
+The EXPLORE loan is designed to do exactly that. With 36 months to pay off your studies, our intention is to offer a competitive and affordable financing option. 
+Naturally, we need some details and documents from you to get your application started.
+Apply Now
+Applying for EXPLORE LOAN!
+Simply complete this application.
+Submit
+Only a few steps lie between you and a world of incredible learning! 
+The following questions need to be answered with the details of the person who will be responsible for the loan repayments.
+Copyright 2020 - 
+Explore Data Science Academy
+Why Us?
+Sorry, either the time expired or you are not authorized.
+Ok
+OK
+ok
+We'll send you an email shortly with more details. Click "OK" to dismiss this popup and go to your dashboard. Or you can click "Dashboard" in the top right.

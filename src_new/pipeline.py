@@ -10,8 +10,8 @@ import os
 
 if __name__ == "__main__":
     pipe = Pipeline()
-    print('Scraping')
-    pipe.scrape_website()
+    # print('Scraping')
+    # pipe.scrape_website()
     print('cleaning')
     pipe.web_cleaning()
     print('Launching')

@@ -1,0 +1,126 @@
+https://explore-datascience.net/course/info/44/5/online
+Long Courses
+Full time On Campus Qualifications
+Data Science
+Part time Online Qualifications
+Data Engineering
+Data Analytics
+Business Intelligence
+NANO-Qualifications
+Advanced Visualisation
+Data Visualisation
+Machine Learning
+Data Pipelines And Automation
+Data Science For Analysts
+See all courses
+Short Courses
+PART-TIME Online DIGITAL SKILLS
+Digital Skills
+SQL For Data Science
+Python For Data Science
+Advanced Classification
+Visualisation
+Advanced Regression
+Unsupervised Learning
+Introduction To Data Science
+Cloud Computing
+Data Warehousing And Lakes
+Data Automation
+Alumni
+Student Reviews
+Hire an EXPLORER
+About Us
+Our Courses
+Our Values
+Enterprise
+Summary
+Build a Pipeline
+Contact Us
+Sign In 
+Data Warehousing and Lakes
+Online: Part-time
+Learn how to create large data lakes and then see how big data analytics can thrive. You too can make sense of petabytes of data in real-time. This course will equip you with everything you need to know!
+Enroll now
+6 weeks
+At 10 hrs/week
+August 23, 2021
+Basic experience with Amazon Web Services [Cloud Computing Digital Skill], Analytical Background
+Upcoming Courses
+Courses coming soon
+Our expert scientists have crafted world-class content to ensure learning happens in an engaging, friendly and professional way. Each course allows for varied levels of experience and expertise.
+Learning with EXPLORE isn't simply studying, it's an experience!
+Try it for free
+Overview
+Why to Join
+Course Introduction
+Course Pricing
+Applications Closed
+Courses Info
+Master a data skill to boost your productivity
+EXPLORE's range of DIGITAL SKILLS are SETA accredited and each offers a unique learning experience over a 6 week period. We’re confident that having nailed one skill, you’ll be back for more - the thrill of learning and applying new knowledge is hard to beat! Each skill is thoughtfully curated to ensure it can be applied in the workplace immediately.
+You'll learn theory, tools and technology in a fast-paced and fun online environment, supported by wise and generous tech specialists who delight in learning.
+Join the ranks of thousands of EXPLORERs who have learnt Amazing Things with us
+Data Warehouses and Lakes DIGITAL SKILL
+Learn how to create large data lakes by seamlessly connecting multiple data sources in the cloud. With these large lakes then see how big data analytics can thrive and how you can make sense of petabytes of data in real-time.
+Data Warehouses and Lakes
+Data warehousing architecture overview
+Run an ETL process to denormalise a database
+Create an OLAP cube from facts and dimensions
+Compare columnar vs. row oriented approaches
+Extract data from S3 into Redshift using ELT process
+Set up AWS infrastructure using IaC
+Design an optimized table by selecting the appropriate distribution style and sorting key
+Implement data lakes on Amazon S3, EMR, Athena, and 
+Amazon Glue
+Use Spark to run ELT processes and analytics on data of
+diverse sources, structures, and vintages
+A giraffe can clean its ears with its 21 inch tongue
+Learn the sexiest skills of the 21st century
+Data skills are the most sought after with some of the highest paid salaries on offer.
+Work with the Best
+Our facilitators and support team have been there and done that - experienced practitioners with a range of data mastery in Utilities, Retail and Financial Services. They are your champions and cheerleaders.
+Learn How to Solve Problems
+The course is built around solving actual problems, whilst learning the latest tools and technologies. Based on the issues that our renowned scientists have helped to solve, each course was designed by a team with years of experience at a global level.
+Apply Your Skills
+EXPLORE prides itself on the practicality of its courses. Participants must be able to apply the skills and knowledge that they acquire to do Amazing Things. Specialists have put their incredible skills together to ensure that learning adds value and not just 'nice-to-know'.
+Extended Access to Material
+Participants will have extended access to the material that is covered in the course, allowing them to revisit the techniques whenever they choose to.
+Top Student Reviews
+I have a network of friends that share an interest with me. I found my passion and where I belong.
+Tahir Hargey
+It was an amazing journey which contributed a lot in my life as I studied Finance and did accounting at school, it was amazing to learn new skills which are highly in demand in the Corporate world.
+Precious Gumede
+EXPLOREs approach to skills development is cutting edge and progressive. My educational background is not in one of the STEM fields and yet I've found the skills I have learnt relevant for the job market and extremely valuable.
+Jake Ruele
+Engaging, interactive and entertaining learning
+At EXPLORE we firmly believe that learning can be fun, even when the content is complex. Our highly experienced course designers are able to share their insights and wisdom through our innovative learning platform and video-first approach. Take a look at what you can expect when joining us:
+SQL
+Learn how to practically apply SQL to a database
+Power BI
+Bring your data to life using beautiful dashboarding techniques
+Find The Right Payment Plan For You
+Upfront Payment
+Pay your fees before the course starts and enjoy a cost saving.No deposit.No complexity.Just one payment. Simple.
+Pay as you Learn
+Monthly payments unlock your next module of learning.Fees payable in advance each month Seamless payments by automated deductionsMake one payment, we do the rest!
+PAY AS YOU LEARN
+Awesome, glad to have you on board!
+Next
+We’ve got your interests at heart
+At EXPLORE we believe that talented individuals should be able to access opportunities to uncover their potential and realise their dreams. We are dedicated to make learning more accessible. 
+The EXPLORE loan is designed to do exactly that. With 36 months to pay off your studies, our intention is to offer a competitive and affordable financing option. 
+Naturally, we need some details and documents from you to get your application started.
+Apply Now
+Applying for EXPLORE LOAN!
+Simply complete this application.
+Submit
+Only a few steps lie between you and a world of incredible learning! 
+The following questions need to be answered with the details of the person who will be responsible for the loan repayments.
+Copyright 2020 - 
+Explore Data Science Academy
+Why Us?
+Sorry, either the time expired or you are not authorized.
+Ok
+OK
+ok
+We'll send you an email shortly with more details. Click "OK" to dismiss this popup and go to your dashboard. Or you can click "Dashboard" in the top right.
