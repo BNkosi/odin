@@ -38,30 +38,24 @@ def answer_question(user_id: str, channel: str, question: str):
     # has completed a task.
     question_answer.timestamp = response["ts"]
 
-
-@slack_events_adapter.on('message')
-def message(payload):
-    """
-    Responds to messages written to the bot
-    """
-    # Gather event data
+@slack_events_adapter.on("message")
+def handle_message(payload):
     event = payload.get("event", {})
-    channel_id = event.get("channel")
-    user_id = event.get("user")
     text = event.get("text")
-    print(text)
-    event_id = payload.get("event_id")
-
-    if event_id in messages_received.keys() and user_id == 'U01AZRT0S30':
-        pass
-    else:
-        messages_received[event_id] = {
-            "user": user_id,
-            "text": text,
-            "channel": channel_id
-        }
-        return answer_question(user_id, channel_id, text)
-
+    print("++++++++++++++++++++++")
+    print(event)
+    # If the incoming message contains "hi", then respond with a "Hello" message
+    if event.get("subtype") is None and "hi" == text:
+        channel = event.get("channel")
+        message = "Hello <@%s>! :tada:" % event.get("user")
+        slack_web_client.chat_postMessage(channel=channel, text=message)
+    
+    elif event.get("subtype") is None and text.endswith("?"):
+        event = payload.get("event", {})
+        channel = event.get("channel")
+        user = event.get("user")
+        return answer_question(user, channel, text)
+    
 if __name__ == "__main__":
     logger = logging.getLogger()
     logger.setLevel(logging.DEBUG)

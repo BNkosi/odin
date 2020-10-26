@@ -146,7 +146,7 @@ class QuestionAnswering:
         self.vectorizer = TfidfVectorizer(min_df=1, analyzer='char', ngram_range=(1,5), lowercase=True)
         self.tfidf = self.vectorizer.fit_transform(self.training_questions)
         self.nbrs = NearestNeighbors(n_neighbors=1, n_jobs=-1).fit(self.tfidf)
-        self.n_sim_questions = 3
+        self.n_sim_questions: int = 3
 
     DIVIDER_BLOCK = {"type": "divider"}
 
@@ -162,8 +162,6 @@ class QuestionAnswering:
                 *self._get_sim_questions()
             ],
         }
-
-
 
     def _get_sim_questions(self):
         distances, indices = self.GetNearestN(query=[self.question], n=self.n_sim_questions)
