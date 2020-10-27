@@ -31,17 +31,9 @@ class QuestionAnswering:
         self.icon_emoji = ":page_facing_up:"
         self.timestamp = ""
         # Add disambiguation stuffies here
-        self.faq = set([
-            "What are the fundamental values at explore?",
-             "What are the payment plans",
-             "Which course is best for me?",
-             "Which course should I take?",
-             "When is the next Advanced Python course?", 
-             "When is the next coding challenge?",
-             "How much does the Data Science course cost?",
-             "How much is the Advanced Python course?",
-             "How much is the Data Analysis course?"
-            ])
+        with open('data/questions.txt') as faq:
+            self.faq = faq.read().split('\n')
+            faq.close()
         self.training_questions = pd.Series(list(self.faq))
         self.correct_question = self._spell_check(self.question)
         self.vectorizer = TfidfVectorizer(min_df=1, analyzer='char', ngram_range=(1,5), lowercase=True)
@@ -67,15 +59,50 @@ class QuestionAnswering:
     def _get_sim_questions(self):
         _, indices = self.GetNearestN(query=[self.question], n=self.n_sim_questions)
         results = self.training_questions[indices[0]].tolist()
-        text = (
-            "Did you mean:\n"
-            f"{results[0]}\n"                                   # Turn this block (text = (XXXXX)) into slack radio buttons
-            f"{results[1]}\n"
-            f"{results[2]}\n"
-            "None of the above"
-        )
-        information = ("None")
-        return self._get_task_block(text, information)
+        return self._get_options_block(results)
+
+        ###########################
+    
+    @staticmethod
+    def _get_options_block(results):
+        return [{
+            "type": "section",	"text": {"type": "plain_text", "text": "Did you mean:"},
+            "accessory": {
+                "type": "radio_buttons",
+                "action_id": "this_is_an_action_id",
+                "initial_option": {
+                    "value": "A1",
+                    "text": {
+                        "type": "plain_text",
+                        "text": f"{results[0]}"
+                        }
+                    },
+				"options": [
+					{
+						"value": "A1",
+						"text": {
+							"type": "plain_text",
+							"text": f"{results[0]}"
+						}
+					},
+					{
+						"value": "A2",
+						"text": {
+							"type": "plain_text",
+							"text": f"{results[1]}"
+						}
+					},
+                    {
+                        "value": "A3",
+						"text": {
+							"type": "plain_text",
+							"text": f"{results[2]}"
+						}
+                    }
+				]
+			}
+		}
+        ]
 
     # @staticmethod
     def _get_answer_block(self):
@@ -262,15 +289,28 @@ class QuestionAnswering:
 
 
 ### TEST: Radio button
-def _get_sim_questions(self):
-        distances, indices = self.GetNearestN(query=[self.question], n=self.n_sim_questions)
-        results = self.training_questions[indices[0]].tolist()
-        text = (
-            "Did you mean:\n"
-            f"{results[0]}\n"
-            f"{results[1]}\n"
-            f"{results[2]}\n"
-            "None of the above"
-        )
-        information = ("None")
-        return self._get_task_block(text, information)
+#def _get_sim_questions(self):
+#        distances, indices = self.GetNearestN(query=[self.question], n=self.n_sim_questions)
+#        results = self.training_questions[indices[0]].tolist()
+#        text = (
+#            "Did you mean:\n"
+#            f"{results[0]}\n"
+#            f"{results[1]}\n"
+#            f"{results[2]}\n"
+#            "None of the above"
+#       )
+#        information = ("None")
+#       return self._get_task_block(text, information)
+
+#def get_answer_payload(self):
+#        return {
+#            "ts": self.timestamp,
+#            "channel": self.channel,
+#            "username": self.username,
+#            "icon_emoji": self.icon_emoji,
+#            "blocks": [
+#               *self._get_answer_block(), 
+#               self.DIVIDER_BLOCK,
+#               *self._get_sim_questions()
+#           ],
+#       }
