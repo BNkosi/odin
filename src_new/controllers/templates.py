@@ -171,10 +171,6 @@ class QuestionAnswering:
             text = re.sub(key, contractions[key], text)
         return text
 
-# # Replace contractions with full length words
-# df['msg_clean'] = df['msg_clean'].apply(lambda x: [word.replace(word, contractions[word.lower()]) if word.lower() in contractions else word for word in x])
-
-
 ### TEST: Radio button
 #def _get_sim_questions(self):
 #        distances, indices = self.GetNearestN(query=[self.question], n=self.n_sim_questions)
