@@ -3,10 +3,8 @@ import re
 import json
 from transformers import AutoModelWithLMHead, AutoTokenizer
 
-
-
 class QuestionGenerator:
-    def __init__(self, doc_dir: str = 'data/documents', question_dir: str = 'data/training/questions.json', max_length: int=64):
+    def __init__(self, doc_dir: str = 'data/documents/', question_dir: str = 'data/raw_questions/', max_length: int=64):
         self.doc_dir = doc_dir
         self.qu_dir = question_dir
 
@@ -44,26 +42,26 @@ class QuestionGenerator:
             title = self.docs[doc]["title"]
             text = self.docs[doc]["text"]
             # text = self.sequence_limiter(text)
-            link = [line for line in text.split("\n") if line.startswith("https:")]
-            sentences = [line +"." for line in text.split("\n") if line.startswith("https:") == False or line != "" or line!= " "]
-            
-            
+            link = [line for line in text.split("\n") if line.startswith("https")]
+            long_line = " ".join([line for line in text.split("\n")])
+            sentences = [line for line in long_line.split(".") if line.startswith("https")==False or line != "" or line!= " "]
     
-            for i in range(len(sentences[:6])):
+            for i in range(len(sentences)):
                 for word in sentences[i].split():
-                    print(f"{word}")
                     question = self.get_question(word, sentences[i])
                     question = re.sub('question: ', '', question)
-                    print(f"{title}, {question}")
+                    print(f"{question}")
                     self.questions["question"].append(question)
                     self.questions["title"].append(title)
                     self.questions["url"].append(link)
                     self.questions["context"].append(text)
         # Save questions to json
-        with open(self.qu_dir, 'w') as fp:
-            json.dump(self.questions, fp)
-            fp.close()
-            
+            with open(f"{self.qu_dir}/{filename.split(".")[0]}_questions.json" , 'w') as fp:
+                json.dump(self.questions, fp)
+                fp.close()
+        # # Download all files
+        # for filename in os.listdir(self.doc_dir):
+        #     files.download(f"{self.qu_dir}/{filename}_questions.json")
 
 
     def get_question(self, answer, context, max_length=64):
@@ -201,17 +199,11 @@ class QuestionGenerator:
         text = re.sub("customer�s", "customer's", text)
         text = re.sub('\\"', "", text)
         text = re.sub(" � ", " - ", text)
-        text = re.sub("�", "", text)    
+        text = re.sub("�", "", text)
+        text = re.sub(r"^[0-9]{2}$", "", text)   
         # Join text into one line
         text = " ".join(text.split('\n'))
         return text
-
-    # @staticmethod
-    # def sequence_limiter(text):
-    #     text = text.split(". ")
-    #     text = ". ".join([sent if len(sent) <=512 else sent[:-512] for sent in text])
-    #     return text
-
 
 if __name__ == "__main__":
     generator = QuestionGenerator()
