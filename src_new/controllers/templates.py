@@ -138,7 +138,11 @@ class QuestionAnswering:
     @staticmethod
     def request_answer(question):
         url = 'http://127.0.0.1:8000/models/1/doc-qa'
+<<<<<<< HEAD
         pay = {"questions": [re.sub("'", "",question)], "top_k_retriever": 3, "top_k_reader": 1}
+=======
+        pay = {"questions": [re.sub("'", "",question)], "top_k_retriever": 1, "top_k_reader": 1}
+>>>>>>> 4b87155863e49e1fcb420b8cd89224a3e69df555
         # data = '{"questions": ["What are the fundamental values at explore?"]}'
         # data = str({"questions": [question]})
         # print(url+ " " +data)
