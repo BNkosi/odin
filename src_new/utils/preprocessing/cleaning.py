@@ -153,29 +153,6 @@ def clean_text_files(doc_dir: str()):
             file.write(text)
             file.close()
 
-def clean_wiki_text(text: str) -> str:
-    # get rid of multiple new lines
-    while "\n\n" in text:
-        text = text.replace("\n\n", "\n")
-
-    # remove extremely short lines
-    lines = text.split("\n")
-    cleaned = []
-    for l in lines:
-        if len(l) > 30:
-            cleaned.append(l)
-        elif l[:2] == "==" and l[-2:] == "==":
-            cleaned.append(l)
-    text = "\n".join(cleaned)
-
-    # add paragraphs (identified by wiki section title which is always in format "==Some Title==")
-    text = text.replace("\n==", "\n\n\n==")
-
-    # remove empty paragrahps
-    text = re.sub(r"(==.*==\n\n\n)", "", text)
-
-    return text
-
 # Importing libraries which will assist in removing the html tags
 from io import StringIO
 from html.parser import HTMLParser
@@ -223,67 +200,19 @@ for filename in os.listdir(directory):
                 if new_lines[i].startswith(' '):
                     new_lines[i] = ' '
             new_lines = [line for line in new_lines if line != ' ']
-
-            try:
-                # Look for questions that aren't in headings
-                for i in range(len(new_lines)):
-                    if '?' in new_lines[i]:
-                        if new_lines[i] in faq_dict.keys():
-                            a = faq_dict[new_lines[i]]
-                            if new_lines[i + 1] not in a:
-                                a.append(new_lines[i + 1])
-                                faq_dict[new_lines[i]] = a
-                        else:
-                            faq_dict[new_lines[i]] = [new_lines[i + 1]]
-
-                # Look for questions in H2 headings
-                    if ('?' in new_lines[i] and 'H2' in new_lines[i]):
-                        key = new_lines[i]
-                        vals = []
-                        j = i + 1
-                        while 'H2' not in new_lines[j]:
-                            vals.append(new_lines[j])
-                            j += 1
-                        if key in faq_dict.keys():
-                            a = faq_dict[key]
-                            for k in range(len(vals)):
-                                if vals[k] not in a:
-                                    a.append(vals[k])
-                                    faq_dict[key] = a
-                        else:
-                            faq_dict[key] = vals
-
-                # Look for questions in H3 headings
-                    if ('?' in new_lines[i] and 'H3' in new_lines[i]):
-                        key = new_lines[i]
-                        vals = []
-                        j = i + 1
-                        while 'H2' not in new_lines[j]:
-                            vals.append(new_lines[j])
-                            j += 1
-                        if key in faq_dict.keys():
-                            a = faq_dict[key]
-                            for k in range(len(vals)):
-                                if vals[k] not in a:
-                                    a.append(vals[k])
-                                    faq_dict[key] = a
-                        else:
-                            faq_dict[key] = vals
-            except:
-                print('Skipped file: {}'.format(filename))
-            
-            # Cleans blank lines and random sub-headings from the text (Part 2 of 2)
-            new_lines = [line for line in new_lines if line not in faq_dict.keys() and line not in faq_dict.values() and 'FAQ' not in line]
             new_lines = [re.sub(r'H\d: ', '', line) for line in new_lines]
             new_lines = [re.sub('Paragraph: ', '', line) for line in new_lines]
             new_lines = [line for line in new_lines if line != '\n' and line != ' \n']
             final_lines = []
             final_lines = [line for line in new_lines if line not in final_lines]
             final_lines = list(dict.fromkeys(final_lines))
+            counter = [i for i in final_lines]
+            for i in counter:
+                word_count += len(i.split(' '))
 
             # Write cleaned text data to new text file
             if len(final_lines) > 0:
-                f_cl = open(f'{directory}{filename}', 'w+', encoding='utf-8')
+                f_cl = open(f'{directory}{word_count}{filename}', 'w+', encoding='utf-8')
                 for i in range(len(final_lines)):
                     f_cl.write(final_lines[i])
                 f_cl.close()

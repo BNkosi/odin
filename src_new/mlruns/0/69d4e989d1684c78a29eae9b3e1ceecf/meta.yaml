@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bulelani/Desktop/odin/odin/src_new/mlruns/0/69d4e989d1684c78a29eae9b3e1ceecf/artifacts
+end_time: 1604146925023
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 69d4e989d1684c78a29eae9b3e1ceecf
+run_uuid: 69d4e989d1684c78a29eae9b3e1ceecf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1604146781396
+status: 3
+tags: []
+user_id: bulelani

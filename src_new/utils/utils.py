@@ -109,11 +109,11 @@ class Pipeline():
                             f_cl.close()
                 f.close()
 
-    def launch_elasticsearch(self, launch: bool = False):
+    def launch_elasticsearch(self, launch: bool = False, name:str = "hera"):
         if launch:
             logging.info("Starting Elasticsearch ...")
             status = subprocess.run(
-                ['docker run -d -p 9200:9200 --name "hera" -e "discovery.type=single-node" elasticsearch:7.6.2'], shell=True
+                [f'docker run -d -p 9200:9200 --name "{name}" -e "discovery.type=single-node" elasticsearch:7.6.2'], shell=True
                 )
             time.sleep(30)
         else:

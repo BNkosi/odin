@@ -3,8 +3,10 @@ import re
 import json
 from transformers import AutoModelWithLMHead, AutoTokenizer
 
+
+
 class QuestionGenerator:
-    def __init__(self, doc_dir: str = 'data/documents/', question_dir: str = 'data/raw_questions/', max_length: int=64):
+    def __init__(self, doc_dir: str = '/home/bulelani/Desktop/odin/odin/src_new/data/documents', question_dir: str = '/home/bulelani/Desktop/odin/odin/src_new/data/raw_questions', max_length: int=64):
         self.doc_dir = doc_dir
         self.qu_dir = question_dir
 
@@ -56,10 +58,10 @@ class QuestionGenerator:
                     self.questions["url"].append(link)
                     self.questions["context"].append(text)
         # Save questions to json
-            with open(f"{self.qu_dir}/{filename.split(".")[0]}_questions.json" , 'w') as fp:
+            with open(f"{self.qu_dir}/{filename}_questions.json" , 'w') as fp:
                 json.dump(self.questions, fp)
                 fp.close()
-        # # Download all files
+        # Download all files
         # for filename in os.listdir(self.doc_dir):
         #     files.download(f"{self.qu_dir}/{filename}_questions.json")
 
