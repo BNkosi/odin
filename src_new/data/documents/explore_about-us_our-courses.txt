@@ -1,0 +1,154 @@
+https://explore-datascience.net/about-us/our-courses
+Long Courses
+Full time On Campus Qualifications
+Data Science
+Part time Online Qualifications
+Data Engineering
+Data Analytics
+Business Intelligence
+NANO-Qualifications
+Advanced Visualisation
+Data Visualisation
+Machine Learning
+Data Pipelines And Automation
+Data Science For Analysts
+See all courses
+Short Courses
+PART-TIME Online DIGITAL SKILLS
+Digital Skills
+SQL For Data Science
+Python For Data Science
+Advanced Classification
+Visualisation
+Advanced Regression
+Unsupervised Learning
+Introduction To Data Science
+Cloud Computing
+Data Warehousing And Lakes
+Data Automation
+Alumni
+Student Reviews
+Hire an EXPLORER
+About Us
+Our Courses
+Our Values
+Enterprise
+Summary
+Build a Pipeline
+Contact Us
+Sign In 
+Our Course Offering
+Browse our options to find your perfect programme
+Find Your Course
+Our courses are designed to suit your needs, skill level, pocket and schedule.
+Qualifications
+NQF Level 5 programmes which cover the full range of data skills that organisations need to thrive in the digital age. From beginner to professional, you’re sure to learn amazing skills! 
+Available on-premise
+NANO Qualifications
+These teach the learner a powerful combination of skills which are marketable and relevant in today’s careers. Students build a significant portfolio of skills to be used in any industry.
+Available Online
+EXPLORE has a range of shorter programmes which teach a learner a valuable skill which they can take into the workplace to deliver value. These bite-sized pieces of learning are current, relevant and cover the latest tools and technologies available
+Our Qualifications
+NQF Level 5 certified programmes which cover a full range of data skills.
+Data Science 
+Our flagship learning pathway which has launched hundreds of previous students into exciting careers. Uncover the magic of how data can be used to solve difficult problems in any context.
+View Course
+Data Engineering 
+Learn how to engineer and manage powerful data platforms that run large Enterprises. This in-demand qualification is sought after in a multitude of industries as they map their digital futures. 
+Data Analytics 
+Upon completion of this programme, students go on to gather and analyse data which they then use to deliver business insights to executives across the board. Any data, any business, the principles apply.
+Business Intelligence 
+Learners master the art of telling stories from across an organisation using beautiful, insightful and value-driving visualisations. Empower yourself to make data come alive!
+EXPLORE’s qualifications equip learners with a comprehensive suite of data skills so that they can add value in any business, fast
+Thanks to the innovative design of our learning platform, and the passion of our scientist facilitators, EXPLORE graduates are set up to fly in the working world.
+Tackling real-world problems throughout the programme, working in teams to practice the theory taught, and navigating the complexities of project management are only some of the essential skills learners have to deal with. They complete an EXPLORE qualification with a rich set of skills they can apply anywhere.
+What are you waiting for? 
+I came from a business focused role. I had a desire to break into tech, more specifically Data Science and EXPLORE’s Data Science program became the catalyst for that ambition to materialise. I went from knowing nothing about coding to now working in a role where I get to build and implement effective software solutions for some of the biggest organizations in South Africa. 
+Jake Ruele
+Our NANO Qualifications
+A curated set of digital skills, packaged in an intelligent way, to ensure learners depart with an immediately usable toolset. These are offered part-time online.
+Machines can know, see, hear, read and speak at the level of humans. We teach learners how these technologies work so that they can leverage them for productivity. 
+Building insights from data, telling compelling stories with the data and communicating these in exciting ways is a critical skills in today’s world. This programme leans into the various ways to do this. 
+Data Pipelines & Automation
+In this course we teach learners how to clan, extract and transform data and then write complex functions and algorithms on the data to solve difficult business problems.
+Predictive Analytics
+his course will open the art of the possible and teach learners how to predict and forecast complex issues with relevant regression and classification algorithms.
+Business Analytics
+This programme equips learners to gather, analyse and interpret key business big databases, and then deliver these to stakeholders to drive decision-making
+Taking visualisation techniques to the next level using specialist tools to craft beautiful and easy-to-use visuals is what this programme covers. It focuses on how visualisation differs across business functions
+There is no one-tool-fits-all in the digital world
+Which is why it is vital for future high-flyers to gather a basket of skills which they can use, test and experiment with as they search for an elegant solution to a complex problem.
+EXPLORE’s NANO-qualifications offer a smart combination of skills, expertly curated to ensure learners acquire a complimentary set of tools for maximum benefit. 
+I got to see how valuable data is because, the way the content is structured you get to "Explore" how to tackle some real-life problems using data for insights and possible solutions. 
+Lindokuhle Pearlson Moloi
+Our Digital Skills
+Bite-sized learning blocks to learn a new skill independently. A great way to get a solid foundation in a single tool or concept.
+SQL for Data Science
+We teach you to work in SQL, from basic queries to more complex operations where optimisation and database design are key.
+Python for Data Science
+Our Programming courses teach users how to work in Python to be able to manipulate large data sets and perform calculations on them in order to analyse the data for insight.
+Using the latest dashboarding technologies is a key skill to deliver the insights and recommendations that your data is telling you. This course covers the key principles and applications to tell elegant stories using various visualisation techniques.
+Regression
+Learn how to prepare data to build predictive models. Understand different regression algorithms, different regularisation techniques, which models to use when, and how to optimise model performance using hyperparameter tuning.
+Classification
+Implement different classification models in Python and learn how to calculate various performance metrics and predict what categories certain data sets fall into. 
+Learn about data dimensionality reduction and how to determine feature significance. Analyse unstructured data using various clustering techniques and use association to build a recommender engine.
+Learn some programming, cloud computing and big data techniques. Then learn how to apply these skills in new and challenging domains. This course will teach you how to create automated pipelines for a business and how to work seamlessly in the cloud.
+Coming Soon
+Data Lakes
+Learn how to create large data lakes by seamlessly connecting multiple data sources in the cloud. With these large lakes then see how big data analytics can thrive and how you can make sense of petabytes of data in real-time.
+Automate repeated data gathering and cleaning tasks. Build pipelines that Extract, Transform and Load data into a database for downstream use. Learn how to test data drift and maintain pipelines using best practices.
+Visualisation for Finance
+Learn how to build dashboards that aggregate time series and financial statement information into intuitive, useful and actionable insights. Predict future values based on financial forecasting models to do scenario planning.
+Visualisation for Analysts
+Analyse large volumes of data by finding the key influencers. Learn how to focus on the most important visuals and insights by embedding state of the art Predictive Analytics and Python into Power-BI
+Visualisation for Marketers
+Drill down into what clients are saying about a brand or product on social platforms. Gain insights on where customers are located and how they respond to promotions. Compare marketing successes, failures and customer sentiment over time.
+The joy of learning comes from expanding your horizons, 
+and then looking beyond them to see what else lies there.
+contact us
+We’ve got your interests at heart
+At EXPLORE we believe that talented individuals should be able to access opportunities to uncover their potential and realise their dreams. We are dedicated to make learning more accessible. 
+The EXPLORE loan is designed to do exactly that. With 36 months to pay off your studies, our intention is to offer a competitive and affordable financing option. 
+Naturally, we need some details and documents from you to get your application started.
+Apply Now
+Applying for EXPLORE ACCELERATION!
+Simply complete this application.
+Save For Later
+Submit
+Do Amazing Things
+Launch an amazing new career, find the journey meant for you.
+EXPLORE now
+Which course are you most interested in?
+Consider your passion, strengths and your dream job. Select one of the tiles below, then click Next.
+I want to learn how to gather and analyze data to deliver business insights to Executives.
+I want to learn how to engineer powerful data platforms that run large enterprises.
+I want to learn the latest advances in Data Science and AI to be a better business leader.
+I want to learn how to build exciting web and mobile applications.
+How much time do you want to spend learning a new skill?
+Consider the amount of time you can invest and what commitment you'd like to make.
+Full-Time
+On Campus
+I want to dedicate my entire week for a period of 6 months
+Part-Time | Long
+Online
+I'm eager to spend a few hours every day learning for a period of 6-12 months
+Part-Time | Short
+I'm eager to spend a few hours every day learning for 1-2 months
+Where do you want to study?
+Which place suits you best?
+Cape Town
+Johannesburg
+London (coming 2021)
+Reading (coming 2021)
+We Found It!
+We have an adventure just for you. Click below to see what journey we suggest.
+Let's Launch
+Copyright 2020 - 
+Explore Data Science Academy
+Why Us?
+Sorry, either the time expired or you are not authorized.
+Ok
+OK
+ok
+We'll send you an email shortly with more details. Click "OK" to dismiss this popup and go to your dashboard. Or you can click "Dashboard" in the top right.
