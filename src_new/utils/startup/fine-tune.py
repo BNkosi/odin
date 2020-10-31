@@ -26,14 +26,14 @@ from haystack.reader.farm import FARMReader
 # We initialize a reader as a base model and fine-tune it on our own custom dataset (should be in SQuAD-like format).
 # We recommend using a base model that was trained on SQuAD or a similar QA dataset before to benefit from Transfer
 # Learning effects.
-reader = FARMReader(model_name_or_path="deepset/roberta-base-squad2", use_gpu=True)
+reader = FARMReader(model_name_or_path="deepset/roberta-base-squad2", use_gpu=False)
 # train_data = "data"
 # train_data = "PATH/TO_YOUR/TRAIN_DATA" 
-reader.train(data_dir=".", train_filename="EQuAD2.json", use_gpu=True, n_epochs=1, save_dir="saved_models")
+reader.train(data_dir="/home/bulelani/Desktop/odin/odin/src_new/data/training", train_filename="answers.json", use_gpu=False, n_epochs=1, save_dir="/home/bulelani/Desktop/odin/saved_models")
 
 # Saving the model happens automatically at the end of training into the `save_dir` you specified
 # However, you could also save a reader manually again via:
-reader.save(directory="saved_models")
+reader.save(directory="/home/bulelani/Desktop/odin/saved_models")
 
 # If you want to load it at a later point, just do:
 # new_reader = FARMReader(model_name_or_path="my_model")

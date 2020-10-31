@@ -28,7 +28,7 @@ logger = logging.getLogger(__name__)
 
 document_store = ElasticsearchDocumentStore(host="localhost", username="", password="", index="document")
 retriever = ElasticsearchRetriever(document_store=document_store)
-reader = FARMReader(model_name_or_path="deepset/roberta-base-squad2", use_gpu=False)
+reader = FARMReader(model_name_or_path="deepset/roberta-base-squad2", use_gpu=False, no_ans_boost=0.6)
 finder = Finder(reader, retriever)
 
 ## Lists
@@ -45,29 +45,25 @@ for filename in os.listdir(question_path):
 
 ## Answering questions
 answers = list()
-total = len(filtered_questions)
-print(filtered_questions)
-times = list()
-for i in range(total):
+equad = {"data": [{"paragraphs": []}]}
 
-    try:
-        _answers = finder.get_answers(question=filtered_questions[i], top_k_retriever=1, top_k_reader=1)
-
-        _filtered_answers = list()
-        for ans in range(len(_answers['answers'])):
-            if _answers['answers'][ans]['probability'] >= 0.8:
-                _filtered_answers.append(_answers['answers'][ans])
-                print(f"accepted: {round(_answers['answers'][ans]['probability'],2)}\n")
-            else:
-                print(f"rejected: {round(_answers['answers'][ans]['probability'],2)}")
-
-        _answers['answers'] = _filtered_answers
-
-        answers.append(_answers)
-
-        print(f"{round(i+1/total*100, 2)}% complete\n")
-    except:
-        pass
-
-print(answers)
-
+{
+    'question': 'What does this course help professionals who need to quickly upskill and enhance their SQL?',
+    'no_ans_gap': 4.704477691650391,
+    'answers': [
+        {
+            'answer': 'demonstrable and  practical skills', 
+            'score': 10.06596565246582, 
+            'probability': 0.7787239681151941, 
+            'context': 'eed to rapidly upskill and enhance their SQL toolkit with demonstrable and  practical skills. This course is technical in nature. It is therefore reco', 
+            'offset_start': 58, 
+            'offset_end': 92, 
+            'offset_start_in_doc': 3290, 
+            'offset_end_in_doc': 3324, 
+            'document_id': '23bc88fa-f41e-4bd3-97e9-268fd6f0ac92', 
+            'meta': {
+                'name': 'SQL_Prospectus_2020.txt'
+                }
+            }
+        ]
+    }
