@@ -70,16 +70,11 @@ for i in range(len(urls)):
         os.remove("../../src_new/data/documents/{}.txt".format(name))
     with open("../../src_new/data/documents/{}.txt".format(name), "w", encoding="utf-8") as f:
         f.write('{}\n'.format(str(urls[i])))
-<<<<<<< HEAD
         div = soup.find('div', 'class': 'find-payment-plan-inner')
         if div != None:
             f.write('{}\n'.format(div))
         for items in soup.find_all():
             all_text = [item.text for item in items.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p'])]
-=======
-        for items in soup.find_all():
-            all_text = [item.text for item in items.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'a', 'p'])]
->>>>>>> 4b87155863e49e1fcb420b8cd89224a3e69df555
             for j in all_text:
                 f.write('{}\n'.format(j))
         f.close()

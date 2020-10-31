@@ -48,7 +48,6 @@ class QuestionGenerator:
             title = self.docs[doc]["title"]
             text = self.docs[doc]["text"]
             # text = self.sequence_limiter(text)
-<<<<<<< HEAD
             link = [line for line in text.split("\n") if line.startswith("https")]
             long_line = " ".join([line for line in text.split("\n")])
             sentences = [line for line in long_line.split(".") if line.startswith("https")==False or line != "" or line!= " "]
@@ -58,19 +57,6 @@ class QuestionGenerator:
                     question = self.get_question(word, sentences[i])
                     question = re.sub('question: ', '', question)
                     print(f"{question}")
-=======
-            link = [line for line in text.split("\n") if line.startswith("https:")]
-            sentences = [line +"." for line in text.split("\n") if line.startswith("https:") == False or line != "" or line!= " "]
-            
-            
-    
-            for i in range(len(sentences[:6])):
-                for word in sentences[i].split():
-                    print(f"{word}")
-                    question = self.get_question(word, sentences[i])
-                    question = re.sub('question: ', '', question)
-                    print(f"{title}, {question}")
->>>>>>> 4b87155863e49e1fcb420b8cd89224a3e69df555
                     self.questions["question"].append(question)
                     self.questions["title"].append(title)
                     self.questions["url"].append(link)
