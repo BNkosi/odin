@@ -1,0 +1,779 @@
+{
+  "data": [
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "Where are the full time courses available?",
+              "id": 52057,
+              "answers": [
+                {
+                  "answer_id": 53968,
+                  "document_id": 51678,
+                  "question_id": 52057,
+                  "text": "Our full-time courses are in JHB, Cape Town and Durban.",
+                  "answer_start": 54,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Can I do the course online?",
+              "id": 52060,
+              "answers": [
+                {
+                  "answer_id": 53971,
+                  "document_id": 51678,
+                  "question_id": 52060,
+                  "text": "We also have a part time online course.",
+                  "answer_start": 110,
+                  "answer_category": "YES"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "How does your course work?",
+              "id": 52062,
+              "answers": [
+                {
+                  "answer_id": 53973,
+                  "document_id": 51678,
+                  "question_id": 52062,
+                  "text": "Our full-time courses are in JHB, Cape Town and Durban. We also have a part time online course.",
+                  "answer_start": 54,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What are the emotional requirements?",
+              "id": 52064,
+              "answers": [
+                {
+                  "answer_id": 53975,
+                  "document_id": 51678,
+                  "question_id": 52064,
+                  "text": "The requirements are passion, grit and determination",
+                  "answer_start": 150,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What are the course requirements?",
+              "id": 52066,
+              "answers": [
+                {
+                  "answer_id": 53977,
+                  "document_id": 51678,
+                  "question_id": 52066,
+                  "text": "there are no specific requirements",
+                  "answer_start": 225,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What are the requirements?",
+              "id": 52067,
+              "answers": [
+                {
+                  "answer_id": 53978,
+                  "document_id": 51678,
+                  "question_id": 52067,
+                  "text": "The requirements are passion, grit and determination - in all seriousness, there are no specific requirements.",
+                  "answer_start": 150,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "How do I apply?",
+              "id": 52072,
+              "answers": [
+                {
+                  "answer_id": 53983,
+                  "document_id": 51678,
+                  "question_id": 52072,
+                  "text": "You will be required to answer our 30 – question quiz and if you pass that you will be asked to participate in our bootcamp and then the interview process. Simply go to our website to start your application process, further instructions are indicated on the site.",
+                  "answer_start": 261,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Where can I find information about the data science course?",
+              "id": 52073,
+              "answers": [
+                {
+                  "answer_id": 53984,
+                  "document_id": 51678,
+                  "question_id": 52073,
+                  "text": "Have a look at our courses page for some additional information: https://explore-datascience.net/long-courses/data-science.",
+                  "answer_start": 525,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Is Explore SETA accredited?",
+              "id": 52074,
+              "answers": [
+                {
+                  "answer_id": 53985,
+                  "document_id": 51678,
+                  "question_id": 52074,
+                  "text": "We are SETA Accredited",
+                  "answer_start": 720,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Where are your course available?",
+              "id": 52075,
+              "answers": [
+                {
+                  "answer_id": 53986,
+                  "document_id": 51678,
+                  "question_id": 52075,
+                  "text": "our courses are available on campus and online.",
+                  "answer_start": 748,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What kind of support will I receive online?",
+              "id": 52076,
+              "answers": [
+                {
+                  "answer_id": 53987,
+                  "document_id": 51678,
+                  "question_id": 52076,
+                  "text": "The online courses have a webinar component and online support.",
+                  "answer_start": 796,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Are there classes for online students?",
+              "id": 52077,
+              "answers": [
+                {
+                  "answer_id": 53988,
+                  "document_id": 51678,
+                  "question_id": 52077,
+                  "text": "The online courses have a webinar component",
+                  "answer_start": 796,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Can I do an on-campus course part-time?",
+              "id": 52078,
+              "answers": [
+                {
+                  "answer_id": 53989,
+                  "document_id": 51678,
+                  "question_id": 52078,
+                  "text": "The on-campus courses are only available full time.",
+                  "answer_start": 860,
+                  "answer_category": "NO"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Where can I find course information?",
+              "id": 52079,
+              "answers": [
+                {
+                  "answer_id": 53990,
+                  "document_id": 51678,
+                  "question_id": 52079,
+                  "text": "All the information is contained on our website including the syllabus and cost.",
+                  "answer_start": 912,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Who qualifies for a sponsorship?",
+              "id": 52080,
+              "answers": [
+                {
+                  "answer_id": 53991,
+                  "document_id": 51678,
+                  "question_id": 52080,
+                  "text": "our sponsorship is directed towards SA Nationals between the age of 18 and 35.",
+                  "answer_start": 1209,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Can I be sponsored if I am not a South African?",
+              "id": 52085,
+              "answers": [
+                {
+                  "answer_id": 53996,
+                  "document_id": 51678,
+                  "question_id": 52085,
+                  "text": "our sponsorship is directed towards SA Nationals",
+                  "answer_start": 1209,
+                  "answer_category": "NO"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "How old must I be for sponsorship?",
+              "id": 52086,
+              "answers": [
+                {
+                  "answer_id": 53997,
+                  "document_id": 51678,
+                  "question_id": 52086,
+                  "text": "age of 18 and 35",
+                  "answer_start": 1270,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What if I am not a South African?",
+              "id": 52087,
+              "answers": [
+                {
+                  "answer_id": 53998,
+                  "document_id": 51678,
+                  "question_id": 52087,
+                  "text": "If you are a non-SA National or fall outside the age requirement, we have a self-paying option available.",
+                  "answer_start": 1288,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What if I am not in the age range?",
+              "id": 52088,
+              "answers": [
+                {
+                  "answer_id": 53999,
+                  "document_id": 51678,
+                  "question_id": 52088,
+                  "text": "If you are a non-SA National or fall outside the age requirement, we have a self-paying option available",
+                  "answer_start": 1288,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Who can I contact about sponsorships?",
+              "id": 52089,
+              "answers": [
+                {
+                  "answer_id": 54000,
+                  "document_id": 51678,
+                  "question_id": 52089,
+                  "text": "If you have any further questions, please pop me an email or WhatsApp – 067 710 1116",
+                  "answer_start": 1394,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What happens after I register?",
+              "id": 52092,
+              "answers": [
+                {
+                  "answer_id": 54003,
+                  "document_id": 51678,
+                  "question_id": 52092,
+                  "text": "Once you register for the course of your choice via the website. You will receive 2 emails.\nEmail 1 - Confirmation of the course you've registered for along with payment details.\nEmail 2 - A link to your student portal as well as login details. Please activate the link within 24hrs. If it is not activated your registration will be deleted automatically and you will be required to re-register.",
+                  "answer_start": 1544,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What courses do you offer?",
+              "id": 52095,
+              "answers": [
+                {
+                  "answer_id": 54006,
+                  "document_id": 51678,
+                  "question_id": 52095,
+                  "text": "We offer quite a vast and exciting subject! Data Science, Machine Learning, Data Engineering and Data Analytics as we as various short courses.",
+                  "answer_start": 1960,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "How much are your courses?",
+              "id": 52096,
+              "answers": [
+                {
+                  "answer_id": 54007,
+                  "document_id": 51678,
+                  "question_id": 52096,
+                  "text": "Our courses are R60,000.00 for full time Data Science and R30,000.00 for a part time online.",
+                  "answer_start": 2273,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Do you have payments plans?",
+              "id": 52097,
+              "answers": [
+                {
+                  "answer_id": 54008,
+                  "document_id": 51678,
+                  "question_id": 52097,
+                  "text": "We also have payments plans available for monthly instalment.",
+                  "answer_start": 2366,
+                  "answer_category": "YES"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "When will I get feedback about my application?",
+              "id": 52099,
+              "answers": [
+                {
+                  "answer_id": 54010,
+                  "document_id": 51678,
+                  "question_id": 52099,
+                  "text": "All communication regarding the status of applications will be sent out few weeks after the closing date.",
+                  "answer_start": 2621,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "I haven't received feedback on my application",
+              "id": 52100,
+              "answers": [
+                {
+                  "answer_id": 54011,
+                  "document_id": 51678,
+                  "question_id": 52100,
+                  "text": " If you have not received communication, please send me your ID number, email address and name so that I can track your application.",
+                  "answer_start": 2726,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "How much time does the course demand?",
+              "id": 52102,
+              "answers": [
+                {
+                  "answer_id": 54013,
+                  "document_id": 51678,
+                  "question_id": 52102,
+                  "text": "You are required to be on campus every day and the course demands 40 hours per week of study.",
+                  "answer_start": 2941,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Can I work part-time during the course?",
+              "id": 52103,
+              "answers": [
+                {
+                  "answer_id": 54014,
+                  "document_id": 51678,
+                  "question_id": 52103,
+                  "text": "We generally discourage people from working / studying elsewhere at the same time while doing the course.",
+                  "answer_start": 3035,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "I can't scroll on the website",
+              "id": 52105,
+              "answers": [
+                {
+                  "answer_id": 54017,
+                  "document_id": 51678,
+                  "question_id": 52105,
+                  "text": "We have noticed that some login/register modals don't scroll for certain pages, on certain browsers, on certain operating systems. We are looking to fix the issue. For now, I’d suggest you try using a PC if possible. Failing that, login/register from the homepage only. Failing that, try to force load the desktop site (Common on phone browser menus. the item above the arrow says \"Desktop Site\") Failing that, try use a different browser, starting with Firefox.",
+                  "answer_start": 3183,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "I can't register",
+              "id": 52106,
+              "answers": [
+                {
+                  "answer_id": 54018,
+                  "document_id": 51678,
+                  "question_id": 52106,
+                  "text": "We have noticed that some login/register modals don't scroll for certain pages, on certain browsers, on certain operating systems. We are looking to fix the issue. For now, I’d suggest you try using a PC if possible. Failing that, login/register from the homepage only. Failing that, try to force load the desktop site (Common on phone browser menus. the item above the arrow says \"Desktop Site\") Failing that, try use a different browser, starting with Firefox.",
+                  "answer_start": 3183,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "I can't log in",
+              "id": 52107,
+              "answers": [
+                {
+                  "answer_id": 54019,
+                  "document_id": 51678,
+                  "question_id": 52107,
+                  "text": "We have noticed that some login/register modals don't scroll for certain pages, on certain browsers, on certain operating systems. We are looking to fix the issue. For now, I’d suggest you try using a PC if possible. Failing that, login/register from the homepage only. Failing that, try to force load the desktop site (Common on phone browser menus. the item above the arrow says \"Desktop Site\") Failing that, try use a different browser, starting with Firefox.",
+                  "answer_start": 3183,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is the learning experience like?",
+              "id": 52109,
+              "answers": [
+                {
+                  "answer_id": 54021,
+                  "document_id": 51678,
+                  "question_id": 52109,
+                  "text": "Our on-campus learning is technology based and the majority of it is conducted through our state-of-the-art learning platform. Pop-up classes, webinars, lectures, meetings and project work make up the rest of the learning experience. The teaching is not pure classroom learning, but we ensure enough students support is available.\nFor online learning, you will have scheduled webinars and chat platforms that gives you access to the student’s community and facilitators if you need support.",
+                  "answer_start": 3685,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Do you have classes and lectures?",
+              "id": 52110,
+              "answers": [
+                {
+                  "answer_id": 54022,
+                  "document_id": 51678,
+                  "question_id": 52110,
+                  "text": "Our on-campus learning is technology based and the majority of it is conducted through our state-of-the-art learning platform. Pop-up classes, webinars, lectures, meetings and project work make up the rest of the learning experience.",
+                  "answer_start": 3685,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Will I be industry ready after completing the course?",
+              "id": 52123,
+              "answers": [
+                {
+                  "answer_id": 54036,
+                  "document_id": 51678,
+                  "question_id": 52123,
+                  "text": "This is difficult for us to ascertain beforehand, as we have no way of knowing what your skill levels are or what your abilities will be after completing the course.",
+                  "answer_start": 4471,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Will I be disadvantaged if I do the online course?",
+              "id": 52124,
+              "answers": [
+                {
+                  "answer_id": 54037,
+                  "document_id": 51678,
+                  "question_id": 52124,
+                  "text": "the content is the same for both on campus and online students.",
+                  "answer_start": 4669,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Can I work and do this course?",
+              "id": 52127,
+              "answers": [
+                {
+                  "answer_id": 54040,
+                  "document_id": 51678,
+                  "question_id": 52127,
+                  "text": "This is a tough course and to thrive you need to put in focused effort from 8 am to 5 pm, Monday to Friday every week and you might need to put in more little time to complete your work.",
+                  "answer_start": 5027,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is the time commitment?",
+              "id": 52128,
+              "answers": [
+                {
+                  "answer_id": 54041,
+                  "document_id": 51678,
+                  "question_id": 52128,
+                  "text": "This is a tough course and to thrive you need to put in focused effort from 8 am to 5 pm, Monday to Friday every week and you might need to put in more little time to complete your work.",
+                  "answer_start": 5027,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Is job placement based on any pre-requesites?",
+              "id": 52144,
+              "answers": [
+                {
+                  "answer_id": 54057,
+                  "document_id": 51678,
+                  "question_id": 52144,
+                  "text": "No, it’s not.",
+                  "answer_start": 5297,
+                  "answer_category": "NO"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Is job placement guaranteed?",
+              "id": 52145,
+              "answers": [
+                {
+                  "answer_id": 54058,
+                  "document_id": 51678,
+                  "question_id": 52145,
+                  "text": "Job placement is not 100% guaranteed, however, we do really aim/tend to place you guys and we also doing our best to assist with placements upon complexion of the course. ",
+                  "answer_start": 5311,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Will I develop a portfolio in the course?",
+              "id": 52146,
+              "answers": [
+                {
+                  "answer_id": 54059,
+                  "document_id": 51678,
+                  "question_id": 52146,
+                  "text": "The course is a work-based skills program so everything they learn is based on practical projects. So, the entire thing can be used as a portfolio.",
+                  "answer_start": 5540,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Can I meet someone to assist me with the online course?",
+              "id": 52147,
+              "answers": [
+                {
+                  "answer_id": 54060,
+                  "document_id": 51678,
+                  "question_id": 52147,
+                  "text": "No, however you will have scheduled webinars and an online chat platform that give you access to the student community and facilitators if you need support. The online courses are fully online, and all components are online based.",
+                  "answer_start": 5760,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "I did not get an email after completing the assessment.",
+              "id": 52148,
+              "answers": [
+                {
+                  "answer_id": 54061,
+                  "document_id": 51678,
+                  "question_id": 52148,
+                  "text": "Our system has generated email often get sent to spam. Please check your spam, junk and promotion folders.",
+                  "answer_start": 6036,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What should I expect before classes start?",
+              "id": 52151,
+              "answers": [
+                {
+                  "answer_id": 54064,
+                  "document_id": 51678,
+                  "question_id": 52151,
+                  "text": "You can expect an email with log in instructions % details at the end of the week. We’re thrilled to have you on board and can’t wait to delight you. We’re finalising the classes & you will be sent all the details",
+                  "answer_start": 6186,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "I want to register for an online course",
+              "id": 52152,
+              "answers": [
+                {
+                  "answer_id": 54065,
+                  "document_id": 51678,
+                  "question_id": 52152,
+                  "text": "You are welcome to go through our website for more info, alternatively for online courses you can select the location in drop down menu of your desired course. In your case, select online, part-time https://explore-datascience.net/long-courses/data-science",
+                  "answer_start": 6431,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Where can I find the banking details?",
+              "id": 52153,
+              "answers": [
+                {
+                  "answer_id": 54066,
+                  "document_id": 51678,
+                  "question_id": 52153,
+                  "text": "Banking details are on your invoice, you can access the invoice on your dashboard via www.explore-datascience.net and not ATHENA.",
+                  "answer_start": 6715,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is bootcamp?",
+              "id": 52154,
+              "answers": [
+                {
+                  "answer_id": 54067,
+                  "document_id": 51678,
+                  "question_id": 52154,
+                  "text": "To give you some background. The bootcamp is mostly self-sourcing / research on python. Once you have done that and practiced a bit you do the MCQ test. The instructions are clear. Please READ and make sure that you UNDERSTAND the instructions.",
+                  "answer_start": 6962,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "How do I do the bootcamp?",
+              "id": 52155,
+              "answers": [
+                {
+                  "answer_id": 54068,
+                  "document_id": 51678,
+                  "question_id": 52155,
+                  "text": "The instructions are clear. Please READ and make sure that you UNDERSTAND the instructions.",
+                  "answer_start": 7115,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What do I do after registering?",
+              "id": 52156,
+              "answers": [
+                {
+                  "answer_id": 54070,
+                  "document_id": 51678,
+                  "question_id": 52156,
+                  "text": "Thank you for applying – You will have to complete the Assessment on-line to stand a chance of being short-listed for the EXPLORE Data Science Academy. Only the best of the best will be granted access into the Matrix.",
+                  "answer_start": 7254,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "When will the application like be available?",
+              "id": 52158,
+              "answers": [
+                {
+                  "answer_id": 54071,
+                  "document_id": 51678,
+                  "question_id": 52158,
+                  "text": "The link will remain closed until we have finalised processing the current intake. Once we have finalized the next cohort, we will re-open the link for applications. The best would be to view our website for details of opening dates",
+                  "answer_start": 7495,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "I am struggling to apply",
+              "id": 52159,
+              "answers": [
+                {
+                  "answer_id": 54072,
+                  "document_id": 51678,
+                  "question_id": 52159,
+                  "text": "Go to the website: https://explore-datascience.net/long-courses/data-science and click on find course>>explore now>>data science>>full time>>location(JHB/CT/Durban)>>payment plan (sponsored/payment plan) then click on “lets launch now” ensure that the screen shows the location and payment plan that you choose then click on apply now>>log in/register. NB: If you have already registered, you should log in and continue with your application and If you did not register yet, you should click on register, you should receive an email to confirm your email, after confirming your email you can log in and continue. ",
+                  "answer_start": 7846,
+                  "answer_category": "LONG"
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Will I get credits at other institutions?",
+              "id": 52160,
+              "answers": [
+                {
+                  "answer_id": 54073,
+                  "document_id": 51678,
+                  "question_id": 52160,
+                  "text": "Yes, you will be credited for the unit standard that you have completed.",
+                  "answer_start": 8534,
+                  "answer_category": "SHORT"
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "How does your course work? What are the requirements?\nOur full-time courses are in JHB, Cape Town and Durban. We also have a part time online course.\nThe requirements are passion, grit and determination - in all seriousness, there are no specific requirements. You will be required to answer our 30 – question quiz and if you pass that you will be asked to participate in our bootcamp and then the interview process. Simply go to our website to start your application process, further instructions are indicated on the site. Have a look at our courses page for some additional information: https://explore-datascience.net/long-courses/data-science. All the best!\n\nGeneral queries\nThank you for your interest in EXPLORE! We are SETA Accredited, and our courses are available on campus and online. The online courses have a webinar component and online support. The on-campus courses are only available full time. All the information is contained on our website including the syllabus and cost. Have a look at our courses page for some additional information: https://explore-datascience.net/long-courses/data-science. \tGood luck!\n\nSponsorship query\nHi, thank you for your interest in EXPLORE! Please note that our sponsorship is directed towards SA Nationals between the age of 18 and 35. If you are a non-SA National or fall outside the age requirement, we have a self-paying option available. If you have any further questions, please pop me an email or WhatsApp – 067 710 1116\n\nRegistration queries\nHi Thank you for your interest in EXPLORE!\nOnce you register for the course of your choice via the website. You will receive 2 emails.\nEmail 1 - Confirmation of the course you've registered for along with payment details.\nEmail 2 - A link to your student portal as well as login details. Please activate the link within 24hrs. If it is not activated your registration will be deleted automatically and you will be required to re-register.\n\nWhat do you offer?\nWe offer quite a vast and exciting subject! Data Science, Machine Learning, Data Engineering and Data Analytics as we as various short courses. Have a look at our website, there is lots of useful information there. https://explore-datascience.net/long-courses/data-science\n\nHow much are the courses and how long?\nOur courses are R60,000.00 for full time Data Science and R30,000.00 for a part time online. We also have payments plans available for monthly instalment. You are welcome to go through our website for more information. https://explore-datascience.net/long-courses/data-science\n\nApplication status queries\nHi Thank you for your interest in EXPLORE! All communication regarding the status of applications will be sent out few weeks after the closing date. If you have not received communication, please send me your ID number, email address and name so that I can track your application. EXPLORE with gumption!\n\n\nStudying part time and doing the course at the same time\nYou are required to be on campus every day and the course demands 40 hours per week of study. We generally discourage people from working / studying elsewhere at the same time while doing the course.\nStruggling to scroll, register and log in\nWe have noticed that some login/register modals don't scroll for certain pages, on certain browsers, on certain operating systems. We are looking to fix the issue. For now, I’d suggest you try using a PC if possible. Failing that, login/register from the homepage only. Failing that, try to force load the desktop site (Common on phone browser menus. the item above the arrow says \"Desktop Site\") Failing that, try use a different browser, starting with Firefox.\n\nDo you offer classrooms and lectures?\nOur on-campus learning is technology based and the majority of it is conducted through our state-of-the-art learning platform. Pop-up classes, webinars, lectures, meetings and project work make up the rest of the learning experience. The teaching is not pure classroom learning, but we ensure enough students support is available.\nFor online learning, you will have scheduled webinars and chat platforms that gives you access to the student’s community and facilitators if you need support. The online courses are fully online, and all components are online based.\n\nIs the online (part time) course designed to enable students to be industry ready at completion? Or is this more an introduction to data science? (i.e. would I be able to work in the data science filed after completion)\nThis is difficult for us to ascertain beforehand, as we have no way of knowing what your skill levels are or what your abilities will be after completing the course. I can however let you know that the content is the same for both on campus and online students. And both will receive the workplace support. The difference in the money back guarantee is the cost of the on-campus course which allows access to the career services package.\n\nHow does the time commitment look like? For full time students. I have a “full time” job, but the hours are flexible\nThis is a tough course and to thrive you need to put in focused effort from 8 am to 5 pm, Monday to Friday every week and you might need to put in more little time to complete your work.\n\nHow do you guys guarantee job placement, and is this based on any pre-requisites?\nNo, it’s not. Job placement is not 100% guaranteed, however, we do really aim/tend to place you guys and we also doing our best to assist with placements upon complexion of the course. \n\nDoes the course include the development of a portfolio?\nThe course is a work-based skills program so everything they learn is based on practical projects. So, the entire thing can be used as a portfolio.\n\nOnline course, Will I get to meet someone to assist me if I struggle? \nNo, however you will have scheduled webinars and an online chat platform that give you access to the student community and facilitators if you need support. The online courses are fully online, and all components are online based.\n\nNot getting email after doing an assessment\nOur system has generated email often get sent to spam. Please check your spam, junk and promotion folders.\n\nWhat to expect before the classes starts?\nYou can expect an email with log in instructions % details at the end of the week. We’re thrilled to have you on board and can’t wait to delight you. We’re finalising the classes & you will be sent all the details.\nWould like to register online\nYou are welcome to go through our website for more info, alternatively for online courses you can select the location in drop down menu of your desired course. In your case, select online, part-time https://explore-datascience.net/long-courses/data-science\n\nInvoice – Banking details\nBanking details are on your invoice, you can access the invoice on your dashboard via www.explore-datascience.net and not ATHENA. Please send me pop once payment is made.\n \nWhat is bootcamp? Do I need to do this online or should I come to campus?\nTo give you some background. The bootcamp is mostly self-sourcing / research on python. Once you have done that and practiced a bit you do the MCQ test. The instructions are clear. Please READ and make sure that you UNDERSTAND the instructions.\n \nDone the registration, what’s the next step?\nThank you for applying – You will have to complete the Assessment on-line to stand a chance of being short-listed for the EXPLORE Data Science Academy. Only the best of the best will be granted access into the Matrix.\n \nApplications closed?\nThe link will remain closed until we have finalised processing the current intake. Once we have finalized the next cohort, we will re-open the link for applications. The best would be to view our website for details of opening dates.\n \nStruggling to apply, can’t see any forms on the website / option to apply\nTo apply, please follow the steps below:\nGo to the website: https://explore-datascience.net/long-courses/data-science and click on find course>>explore now>>data science>>full time>>location(JHB/CT/Durban)>>payment plan (sponsored/payment plan) then click on “lets launch now” ensure that the screen shows the location and payment plan that you choose then click on apply now>>log in/register. NB: If you have already registered, you should log in and continue with your application and If you did not register yet, you should click on register, you should receive an email to confirm your email, after confirming your email you can log in and continue. All the best!\n \nWill I be credited for when I apply at other institutions?\nYes, you will be credited for the unit standard that you have completed.\n \n \n \n\n",
+          "document_id": 51678
+        }
+      ]
+    }
+  ]
+}
