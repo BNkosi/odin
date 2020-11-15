@@ -1,0 +1,80 @@
+How does your course work? What are the requirements?
+Our full-time courses are in JHB, Cape Town and Durban. We also have a part time online course.
+The requirements are passion, grit and determination - in all seriousness, there are no specific requirements. You will be required to answer our 30 – question quiz and if you pass that you will be asked to participate in our bootcamp and then the interview process. Simply go to our website to start your application process, further instructions are indicated on the site. Have a look at our courses page for some additional information: https://explore-datascience.net/long-courses/data-science. All the best!
+
+General queries
+Thank you for your interest in EXPLORE! We are SETA Accredited, and our courses are available on campus and online. The online courses have a webinar component and online support. The on-campus courses are only available full time. All the information is contained on our website including the syllabus and cost. Have a look at our courses page for some additional information: https://explore-datascience.net/long-courses/data-science. 	Good luck!
+
+Sponsorship query
+Hi, thank you for your interest in EXPLORE! Please note that our sponsorship is directed towards SA Nationals between the age of 18 and 35. If you are a non-SA National or fall outside the age requirement, we have a self-paying option available. If you have any further questions, please pop me an email or WhatsApp – 067 710 1116
+
+Registration queries
+Hi Thank you for your interest in EXPLORE!
+Once you register for the course of your choice via the website. You will receive 2 emails.
+Email 1 - Confirmation of the course you've registered for along with payment details.
+Email 2 - A link to your student portal as well as login details. Please activate the link within 24hrs. If it is not activated your registration will be deleted automatically and you will be required to re-register.
+
+What do you offer?
+We offer quite a vast and exciting subject! Data Science, Machine Learning, Data Engineering and Data Analytics as we as various short courses. Have a look at our website, there is lots of useful information there. https://explore-datascience.net/long-courses/data-science
+
+How much are the courses and how long?
+Our courses are R60,000.00 for full time Data Science and R30,000.00 for a part time online. We also have payments plans available for monthly instalment. You are welcome to go through our website for more information. https://explore-datascience.net/long-courses/data-science
+
+Application status queries
+Hi Thank you for your interest in EXPLORE! All communication regarding the status of applications will be sent out few weeks after the closing date. If you have not received communication, please send me your ID number, email address and name so that I can track your application. EXPLORE with gumption!
+
+
+Studying part time and doing the course at the same time
+You are required to be on campus every day and the course demands 40 hours per week of study. We generally discourage people from working / studying elsewhere at the same time while doing the course.
+Struggling to scroll, register and log in
+We have noticed that some login/register modals don't scroll for certain pages, on certain browsers, on certain operating systems. We are looking to fix the issue. For now, I’d suggest you try using a PC if possible. Failing that, login/register from the homepage only. Failing that, try to force load the desktop site (Common on phone browser menus. the item above the arrow says "Desktop Site") Failing that, try use a different browser, starting with Firefox.
+
+Do you offer classrooms and lectures?
+Our on-campus learning is technology based and the majority of it is conducted through our state-of-the-art learning platform. Pop-up classes, webinars, lectures, meetings and project work make up the rest of the learning experience. The teaching is not pure classroom learning, but we ensure enough students support is available.
+For online learning, you will have scheduled webinars and chat platforms that gives you access to the student’s community and facilitators if you need support. The online courses are fully online, and all components are online based.
+
+Is the online (part time) course designed to enable students to be industry ready at completion? Or is this more an introduction to data science? (i.e. would I be able to work in the data science filed after completion)
+This is difficult for us to ascertain beforehand, as we have no way of knowing what your skill levels are or what your abilities will be after completing the course. I can however let you know that the content is the same for both on campus and online students. And both will receive the workplace support. The difference in the money back guarantee is the cost of the on-campus course which allows access to the career services package.
+
+How does the time commitment look like? For full time students. I have a “full time” job, but the hours are flexible
+This is a tough course and to thrive you need to put in focused effort from 8 am to 5 pm, Monday to Friday every week and you might need to put in more little time to complete your work.
+
+How do you guys guarantee job placement, and is this based on any pre-requisites?
+No, it’s not. Job placement is not 100% guaranteed, however, we do really aim/tend to place you guys and we also doing our best to assist with placements upon complexion of the course. 
+
+Does the course include the development of a portfolio?
+The course is a work-based skills program so everything they learn is based on practical projects. So, the entire thing can be used as a portfolio.
+
+Online course, Will I get to meet someone to assist me if I struggle? 
+No, however you will have scheduled webinars and an online chat platform that give you access to the student community and facilitators if you need support. The online courses are fully online, and all components are online based.
+
+Not getting email after doing an assessment
+Our system has generated email often get sent to spam. Please check your spam, junk and promotion folders.
+
+What to expect before the classes starts?
+You can expect an email with log in instructions % details at the end of the week. We’re thrilled to have you on board and can’t wait to delight you. We’re finalising the classes & you will be sent all the details.
+Would like to register online
+You are welcome to go through our website for more info, alternatively for online courses you can select the location in drop down menu of your desired course. In your case, select online, part-time https://explore-datascience.net/long-courses/data-science
+
+Invoice – Banking details
+Banking details are on your invoice, you can access the invoice on your dashboard via www.explore-datascience.net and not ATHENA. Please send me pop once payment is made.
+ 
+What is bootcamp? Do I need to do this online or should I come to campus?
+To give you some background. The bootcamp is mostly self-sourcing / research on python. Once you have done that and practiced a bit you do the MCQ test. The instructions are clear. Please READ and make sure that you UNDERSTAND the instructions.
+ 
+Done the registration, what’s the next step?
+Thank you for applying – You will have to complete the Assessment on-line to stand a chance of being short-listed for the EXPLORE Data Science Academy. Only the best of the best will be granted access into the Matrix.
+ 
+Applications closed?
+The link will remain closed until we have finalised processing the current intake. Once we have finalized the next cohort, we will re-open the link for applications. The best would be to view our website for details of opening dates.
+ 
+Struggling to apply, can’t see any forms on the website / option to apply
+To apply, please follow the steps below:
+Go to the website: https://explore-datascience.net/long-courses/data-science and click on find course>>explore now>>data science>>full time>>location(JHB/CT/Durban)>>payment plan (sponsored/payment plan) then click on “lets launch now” ensure that the screen shows the location and payment plan that you choose then click on apply now>>log in/register. NB: If you have already registered, you should log in and continue with your application and If you did not register yet, you should click on register, you should receive an email to confirm your email, after confirming your email you can log in and continue. All the best!
+ 
+Will I be credited for when I apply at other institutions?
+Yes, you will be credited for the unit standard that you have completed.
+ 
+ 
+ 
+
