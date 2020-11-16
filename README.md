@@ -1,90 +1,107 @@
-# Odin
-Odin is a closed domain question answering package for Explore Data Science Academy.
-The package is required to assist in the onboarding of new  students and provide administrative guidance for the course.
-This will benefit Explore by providing students with an alternative resource to Supervisors therby freeing up Supervisor time.
+<div align="center" id="top"> 
+  <img src="./img/H.e.r.a.png" alt="H.E.R.A" />
 
-## 1. Installation Instructions
-### 1.1 Odin
+  &#xa0;
 
-1. Create a virtual environment:
-`python3.6 -m venv odin_env`
+  <!-- <a href="https://odin.netlify.app">Demo</a> -->
+</div>
 
-2. Activate the virtual environment:
-`source odin_env/bin.activate`
+<h1 align="center">H.E.R.A</h1>
 
-3. Clone the Odin repository:
-`git clone https://github.com/BNkosi/odin.git`
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/BNkosi/odin?color=56BEB8">
 
-At this point you have the code for odin but you need haystack to make it work.
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/BNkosi/odin?color=56BEB8">
 
-4. Change directory to odin
-`cd path/to/odin`
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/BNkosi/odin?color=56BEB8">
 
-### 1.2 Haystack
+  <img alt="License" src="https://img.shields.io/github/license/BNkosi/odin?color=56BEB8">
 
-5. Delete the haystack folder - it is empty
-`rm -R haystack`
+  <img alt="Github issues" src="https://img.shields.io/github/issues/BNkosi/odin?color=56BEB8" />
 
-6. For development installation (latest updates) -**Not recommended for instance**
-`git clone https://github.com/deepset-ai/haystack.git`
-`cd haystack`
-`pip install --editable path/to/haystack` _eg: `pip install --editable ~/Desktop/explore/odin/haystack`_
+  <img alt="Github forks" src="https://img.shields.io/github/forks/BNkosi/odin?color=56BEB8" />
 
-7. Compute Instance installation
-`git clone https://github.com/deepset-ai/haystack.git`
-`cd haystack`
-`python setup.py`
+  <img alt="Github stars" src="https://img.shields.io/github/stars/BNkosi/odin?color=56BEB8" />
+</p>
 
-### 1.3 Docker
+Status
 
-Our Elasticsearch server is going to be run with Docker. Follow the appropriate instructions below
+<h4 align="center"> 
+	🚧  Hera 🚀 Under construction...  🚧
+</h4> 
 
-a. [Linux installation instruction](https://docs.docker.com/engine/install/ubuntu/)
-b. [Windows 10 build 18563+](https://docs.docker.com/docker-for-windows/install/)
+<hr>
 
-## 2. Dataloading and model training - First use only
+<p align="center">
+  <a href="#dart-about">About</a> &#xa0; | &#xa0;
+  <a href="#sparkles-works">How It Works</a> &#xa0; | &#xa0;
+  <a href="#hammer-features">Installation</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Getting Started</a> &#xa0; | &#xa0;
+  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/BNkosi" target="_blank">Author</a>
+</p>
 
-### 2.1 Initial setup
+<br>
 
-1. Navigate to `haystack/rest_api/config.py` and edit line 30 to read:
-`READER_MODEL_PATH = os.getenv("READER_MODEL_PATH", "../../saved_models/distilbert-base-uncased-distilled-squad")` save and exit. _this step may be skipped if you are not ready to train a model_
+## :dart: About ##
 
-### 2.2 Initialize Docker, clean and index documents
+### :question::exclamation: Problem Statement ###
 
-2. Change directory to `src`
-`cd ../src`
+<a href="https://www.explore-datascience.net">Explore Data Science Academy</a> is an amazing company helping South Africas youth do amazing things. This repository is a testament to that. Explore is an educational institution in the information systems development field.
 
-3. Open documents.py and make the following adjustments:
-	line 16: change `False` to `True` _first setup only_
-	line 29: if adding new documents, specify and index name
-	line 34: download a zip file from your s3 bucket
+Student enquiries are an administrative burden on the company. For reasons which are little understood, users cannot find information on the website and require human assistance.
 
-4. Run `python odin/src/documents.py`.
-	notes: 
-	a. When LAUNCH_ELASTICSEARCH is set to false, documents in an index will be deleted. Do avoid deletion change the index.
-	b. The document cleaning function can be found in `src/utils/cleaning.py`. Function input/output must be a `str`
+Hera aims to address this issue by creating an information retrieval assistant to act as the first trouble shooting step before contacting a member of staff.
 
-### 2.3 Model training and saving
+## :sparkles: How It Works ##
 
-1. Open fine-tune.py and edit the following lines:
-	line 31: Choose a model from [Hugging Face's Model hub](https://huggingface.co/models) AND set gpu parameter
-	line 32 and 34: adjust file path, file name, n_epochs and batch_size _if necessary_
+## :hammer: Installation ##
 
-2. Run
-`python odin/src/fine-tune.py`.
+:heavy_check_mark: Feature 1;\
+:heavy_check_mark: Feature 2;\
+:heavy_check_mark: Feature 3;
 
-3. Use the [annotation tool](https://annotate.deepset.ai/) to generate training data.
+## :rocket: Technologies ##
 
-## Rest API
+The following tools were used in this project:
 
-**If this is your first time running this, skip step 1 and 2**
+- [Expo](https://expo.io/)
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-1. Check the name of exited Docker container
-`docke ps -a`
-2. Start the container:
-`docker start <name>`
+## :white_check_mark: Requirements ##
 
-3. To serve the API run:
-`gunicorn rest_api.application:app -b 0.0.0.0:8000 -k uvicorn.workers.UvicornWorker -t 300`
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-3. You will find the Swagger API documentation at http://127.0.0.1:8000/docs.
+## :checkered_flag: Getting Started ##
+
+```bash
+# Clone this project
+$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/odin
+
+# Access
+$ cd odin
+
+# Install dependencies
+$ yarn
+
+# Run the project
+$ yarn start
+
+# The server will initialize in the <http://localhost:3000>
+```
+
+## :memo: License ##
+
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+
+
+Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+
+&#xa0;
+
+<a href="#top">Back to top</a>
