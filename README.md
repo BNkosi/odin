@@ -49,6 +49,8 @@ Status
 
 ### :question::exclamation: Problem Statement ###
 
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/gsDucStJIJw)
+
 <a href="https://www.explore-datascience.net">Explore Data Science Academy</a> is an amazing company helping South Africas youth do amazing things. This repository is a testament to that. Explore is an educational institution in the information systems development field.
 
 Student enquiries are an administrative burden on the company. For reasons which are little understood, users cannot find information on the website and require human assistance.
