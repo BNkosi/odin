@@ -52,7 +52,7 @@ class QuestionAnswering:
             "blocks": [
                 *self._get_answer_block(), 
                 self.DIVIDER_BLOCK,
-                *self._get_sim_questions()
+                # *self._get_sim_questions()
             ],
         }
 

@@ -13,7 +13,7 @@ from haystack.retriever.sparse import ElasticsearchRetriever
 
 logger = logging.getLogger(__name__)
 
-LAUNCH_ELASTICSEARCH = True
+LAUNCH_ELASTICSEARCH = False
 
 if LAUNCH_ELASTICSEARCH:
     logging.info("Starting Elasticsearch ...")
