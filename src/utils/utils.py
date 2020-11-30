@@ -23,7 +23,7 @@ class Pipeline():
         URL (str): website url
         path_to_data (str): file save path
     """
-    def __init__(self, URL:str = 'https://explore-datascience.net', path_to_data:str = "../src_new/data/documents/"):
+    def __init__(self, URL:str = 'https://explore-datascience.net', path_to_data:str = "../src/data/documents/"):
         """
         Initialize by: accessing website, getting urls and pdfs
         """

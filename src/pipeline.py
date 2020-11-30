@@ -18,7 +18,8 @@ if __name__ == "__main__":
     try:
         pipe.launch_elasticsearch()
     except:
-        raise("No available containers, launching new one")
+        print("No available containers, launching new one")
+    else:    
         pipe.launch_elasticsearch(True)
     
     ## Dont forget `export SLACK_SIGNING_SECRET="xxxxx"` `export SLACK_BOT_TOKEN='xoxb-xxxx'
