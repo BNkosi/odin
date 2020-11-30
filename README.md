@@ -61,11 +61,13 @@ Hera helps you by freeing up time to focus on product delivery!
 
 1. Hera is built on a [Haystack](https://github.com/deepset-ai/haystack) backend. Haystack is a tool that provides a pipeline for [Closed Domain Question Answering](http://ceur-ws.org/Vol-1769/paper03.pdf) using the latest pretrained models. This makes it ideal for information retrieval.
 
-[<img src="./img/concepts_haystack_v2.png" alt="haystack">](https://youtu.be/gsDucStJIJw)
+<img src="./img/concepts_haystack_v2.png" alt="haystack">
 
-2. Hera scrapes your [website](explore-datascience.net/) and loads your documents to the DocumentStore for you
+2. Hera scrapes your [website](explore-datascience.net/) and loads your documents to the DocumentStore for you. You can change the default url by editing the URL in `webscraper.py`
 
-3. Hera is integrated in
+3. Hera is integrated into Slack as below. All that is left is to embed the conversation into your website with a tool like Chatwoot (coming soon)
+
+<img src="./img/hera flow.png" alt="haystack">
 
 ## :white_check_mark:  Requirements ##
 
@@ -174,6 +176,8 @@ $ python3 trainer.py
 ```
 
 ## :rocket: Improvements ##
+
+:heavy_check_mark: Deployment - Chatwoot has been identified as the prefered tool to integrate the Slack window into websites.
 
 :heavy_check_mark: Retrieval-Augmented Generation - Currently the model works by selecting the most appropriate span of text and presenting it as the answer (extractive QA). The next step is the generation of novel answers from the same documents. This makes the bot more human-like and thus more trust-worthy.;\
 
