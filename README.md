@@ -60,6 +60,14 @@ Hera aims to address this issue by creating an information retrieval assistant t
 
 ## :sparkles: How It Works ##
 
+1. Hera is built on a [Haystack](https://github.com/deepset-ai/haystack) backend. Haystack is a tool that provides a pipeline for [Closed Domain Question Answering](http://ceur-ws.org/Vol-1769/paper03.pdf) using the latest pretrained models. This makes it ideal for information retrieval.
+
+[<img src="./img/concepts_haystack_v2.png" alt="haystack">](https://youtu.be/gsDucStJIJw)
+
+2. Hera scrapes your [website](explore-datascience.net/) and loads your documents to the DocumentStore for you
+
+3. Hera is integrated in
+
 ##  :white_check_mark:  Requirements ##
 
 The following tools were used in this project:
