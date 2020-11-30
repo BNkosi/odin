@@ -69,28 +69,63 @@ Hera aims to address this issue by creating an information retrieval assistant t
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Docker](https://docs.docker.com)
+- [Slack App](ttps://api.slack.com/apps)
+- [Ngrok](https://ngrok.com/)
+- [Haystack](https://github.com/deepset-ai/haystack)
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [a Slack App](https://api.slack.com/apps), Slack Signing Secret and Slack Bot Token. You cannot proceed without these. You will also need to install [Docker](https://docs.docker.com/engine/install/ubuntu/) to run the ElasticSearch container, and [Ngrok](https://ngrok.com/) to connect the bot to the internet.
+
+```bash
+# Install signing secret
+$ export SLACK_SIGNING_SECRET="xxxxx" 
+
+# Install token
+$ export SLACK_BOT_TOKEN="xoxb-xxxx"
+```
 
 ## :checkered_flag: Getting Started ##
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/odin
+$ git clone https://github.com/{{Bnkosi}}/odin
 
 # Access
 $ cd odin
 
 # Install dependencies
-$ yarn
+$ pip install farm-haystack==0.4.9
+```
 
+### :: ###
+### :page_facing_up: Run the pipeline ###
+
+H.E.R.A works by scraping your website and loading this data into and ElasticSearch Document Store. It is possible to ask questions immediately but to improve accuracy, a model should be trained.
+
+```bash
+# First time use/refreshing documents
+$ python3 pipeline.py
+
+# USE THIS IF YOU HAVE THIS IS NOT THE FIRST USE
+# 1. Start docker container
+$ docker run <container_name>
+
+# 2. Start the app
+$ $ gunicorn rest_api.application:app -b 0.0.0.0:8000 -k uvicorn.workers.UvicornWorker -t 300
+
+# To add additional documents
+# Change file location and run
+$ python3 add_doc.py
+```
+
+### Model Training ###
+
+
+
+
+```bash
 # Run the project
 $ yarn start
 
