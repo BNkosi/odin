@@ -104,15 +104,24 @@ $ export SLACK_BOT_TOKEN="xoxb-xxxx"
 H.E.R.A works by scraping your website and loading this data into and ElasticSearch Document Store. It is possible to ask questions immediately but to improve accuracy, a model should be trained.
 
 ```bash
-# A. First time use/refreshing documents
+# A. Scrape Website
 $ python3 pipeline.py
 
-# B. USE THIS IF YOU HAVE THIS IS NOT THE FIRST USE
-# 1. Start docker container
-$ docker run hera
 
-# 2. Start the app
-$ $ gunicorn rest_api.application:app -b 0.0.0.0:8000 -k uvicorn.workers.UvicornWorker -t 300
+# B. If you have previously run the step above, start here
+# 1. Start docker container
+$ docker ps -a  # view available containers
+$ docker start hera # start container
+
+# 2. Write documents to ElasticSearch
+# Change Document location and run
+$ python3 add_doc.py
+
+# 3. Start the Question Answering API
+$ gunicorn rest_api.application:app -b 0.0.0.0:8000 -k uvicorn.workers.UvicornWorker -t 300
+
+# 4. Start Hera
+$ python3 hera.py
 ```
 
 ### :arrows_counterclockwise: Set up a tunnel ###
@@ -128,27 +137,38 @@ Copy the resultant https forwarding address and update the Slack App Event Subsc
 
 eg: `https://6fdef00d53b6.ngrok.io/slack/events`
 
-### Interacting with the bot ###
+### :robot: Interacting with the bot ###
 
 Open your Slack workspace, invite the bot to a channel and ask it a few questions.
 
 ## Updating documents ##
+
+From time to time you might need to ad documents that specifically address issues that are not covered by the website. In those cases, add your txt files to a folder and rund the script below. Remember to change the file paths.
 
 ```bash
 # Change Document location and run
 $ python3 add_doc.py
 ```
 
-### Model Training ###
+## Fine-Tuning ###
 
+When you are ready to improve the models accuracy, you will need to train it on annotated data. Documents can be manually annotated using Deepset annotation tool.
 
+### Coming Soon - Learning to answer by learning to ask ###
 
+The process of document annotation is tedious and requires a substantial investment in time to generate and label documents. To solve this, we have built twon in-progress scripts.
+
+1. Generator - The generator reads every all the text files and attempts to generate a question for every word (token). Noteably, most of the questions will be useless due to being to general or having been generated on invalid tokens.
+
+2. Pretrainer - The pretrainer then attempts to answer every question from the generator. It is important that we set the `NO_ANS_BOOST` fairly high in order to filter out useless questions. After answering the questions, a dataset is generated and the model is ready to be trained.
+
+### Training ###
+
+Once the dataset has been downloaded from the annotation tool, run the following to train the model
 
 ```bash
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
+# Train
+$ python3 trainer.py
 ```
 
 ## :memo: License ##
@@ -156,7 +176,7 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/BNkosi" target="_blank">Bulelani Nkosi</a>
 
 &#xa0;
 
