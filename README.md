@@ -49,7 +49,7 @@ Status
 
 [Watch the video](https://youtu.be/gsDucStJIJw)
 
-<a href="https://www.explore-datascience.net">Explore Data Science Academy</a> is an amazing company helping South Africas youth do amazing things. This repository is a testament to that. Explore is an educational institution in the information systems development field.
+<a href="https://www.explore-datascience.net">Explore Data Science Academy</a> is an amazing company helping South Africa's youth do amazing things. This repository is a testament to that. Explore is an educational institution in the information systems development field.
 
 Inquiries are an administrative burden on companies. A substantial amount of time is spent on drafting responses to each one. Further, These responses are often repetitive.
 
@@ -59,7 +59,7 @@ Hera helps you by freeing up time to focus on product delivery!
 
 ## :sparkles: Solution ##
 
-1. Hera is built on a [Haystack](https://github.com/deepset-ai/haystack) backend. Haystack is a tool that provides a pipeline for [Closed Domain Question Answering](http://ceur-ws.org/Vol-1769/paper03.pdf) using the latest pretrained models. This makes it ideal for information retrieval.
+1. Hera is built on a [Haystack](https://github.com/deepset-ai/haystack) backend. Haystack is a tool that provides a pipeline for [Closed Domain Question Answering](http://ceur-ws.org/Vol-1769/paper03.pdf) using the latest pretrained models. This makes it ideal for information retrieval without the financial burden of training the a language model.
 
 <img src="./img/concepts_haystack_v2.png" alt="haystack">
 
@@ -67,7 +67,7 @@ Hera helps you by freeing up time to focus on product delivery!
 
 3. Hera is integrated into Slack as below. All that is left is to embed the conversation into your website with a tool like Chatwoot (coming soon)
 
-<img src="./img/hera flow.png" alt="haystack">
+<img src="./img/hera flow.png" alt="flow">
 
 ## :white_check_mark:  Requirements ##
 
@@ -189,7 +189,7 @@ $ python3 trainer.py
 
 ## :memo: License ##
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+This project is under an Apache-2.0 license. For more details, see the [LICENSE](LICENSE.md) file.
 
 
 Made with :heart: by <a href="https://github.com/BNkosi" target="_blank">Bulelani Nkosi</a> and <a href="https://github.com/carynpialat" target="_blank">Caryn Pialt</a>
