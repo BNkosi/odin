@@ -176,7 +176,9 @@ $ python3 trainer.py
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/BNkosi" target="_blank">Bulelani Nkosi</a>
+Made with :heart: by <a href="https://github.com/BNkosi" target="_blank">Bulelani Nkosi</a> and <a href="https://github.com/carynpialat" target="_blank">Caryn Pialt</a>
+
+Special Thanks :heart::heart: Pfano Phungo
 
 &#xa0;
 
