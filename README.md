@@ -179,11 +179,11 @@ $ python3 trainer.py
 
 :heavy_check_mark: Deployment - Chatwoot has been identified as the prefered tool to integrate the Slack window into websites.
 
-:heavy_check_mark: Retrieval-Augmented Generation - Currently the model works by selecting the most appropriate span of text and presenting it as the answer (extractive QA). The next step is the generation of novel answers from the same documents. This makes the bot more human-like and thus more trust-worthy.;\
+:heavy_check_mark: Retrieval-Augmented Generation - Currently the model works by selecting the most appropriate span of text and presenting it as the answer (extractive QA). The next step is the generation of novel answers from the same documents. This makes the bot more human-like and thus more trust-worthy.;
 
-:heavy_check_mark: Generative Pretraining - The annotation tool is labour intesive and costly. Generative Pretraining aims to simulate a human asking and answerinig (annotating) documents. The code is present but still needs fine-tuning;\
+:heavy_check_mark: Generative Pretraining - The annotation tool is labour intesive and costly. Generative Pretraining aims to simulate a human asking and answerinig (annotating) documents. The code is present but still needs fine-tuning;
 
-:heavy_check_mark: Context Management - Users ask ambiguous questions, such as: "How much is this course?". Context management allows the bot to know which course the user is talking about or ask for clarity where there is uncertainty.;\
+:heavy_check_mark: Context Management - Users ask ambiguous questions, such as: "How much is this course?". Context management allows the bot to know which course the user is talking about or ask for clarity where there is uncertainty.;
 
 :heavy_check_mark: Feedback - Logging of questions still needs to be built in as well as notification when answers aren't found. Notifications must be balanced between always sending notifications and always answering the question.
 
