@@ -53,7 +53,9 @@ Status
 
 Inquiries are an administrative burden on companies. A substantial amount of time is spent on drafting responses to each one. Further, These responses are often repetitive.
 
-Hera aims to address this issue by creating an information retrieval assistant to act as the first trouble shooting step before contacting a member of staff.
+Hera aims to address this issue by creating an information retrieval assistant to act as the first point of contact before contacting a member of staff.
+
+Hera helps you by freeing up time to focus on product delivery!
 
 ## :sparkles: Solution ##
 
@@ -177,7 +179,9 @@ $ python3 trainer.py
 
 :heavy_check_mark: Generative Pretraining - The annotation tool is labour intesive and costly. Generative Pretraining aims to simulate a human asking and answerinig (annotating) documents. The code is present but still needs fine-tuning;\
 
-:heavy_check_mark: Context Management - Users ask ambiguous questions, such as: "How much is this course?". Context management allows the bot to know which course the user is talking about or ask for clarity where there is uncertainty.;
+:heavy_check_mark: Context Management - Users ask ambiguous questions, such as: "How much is this course?". Context management allows the bot to know which course the user is talking about or ask for clarity where there is uncertainty.;\
+
+:heavy_check_mark: Feedback - Logging of questions still needs to be built in as well as notification when answers aren't found. Notifications must be balanced between always sending notifications and always answering the question.
 
 ## :memo: License ##
 
