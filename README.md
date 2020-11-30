@@ -35,10 +35,11 @@ Status
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0;
   <a href="#sparkles-works">How It Works</a> &#xa0; | &#xa0;
-  <a href="#hammer-features">Features</a> &#xa0; | &#xa0;
+
   <a href="#rocket-technologies">Requirements</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Getting Started</a> &#xa0; | &#xa0;
+  <a href="#hammer-features">Improvements</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/BNkosi" target="_blank">Author</a>
 </p>
@@ -58,12 +59,6 @@ Student enquiries are an administrative burden on the company. For reasons which
 Hera aims to address this issue by creating an information retrieval assistant to act as the first trouble shooting step before contacting a member of staff.
 
 ## :sparkles: How It Works ##
-
-## :rocket: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
 
 ##  :white_check_mark:  Requirements ##
 
@@ -139,7 +134,7 @@ eg: `https://6fdef00d53b6.ngrok.io/slack/events`
 
 ### :robot: Interacting with the bot ###
 
-Open your Slack workspace, invite the bot to a channel and ask it a few questions.
+Open your Slack workspace, invite the bot to a channel and ask it a few questions. You can watch a demo of the bot [here](https://youtu.be/JZyE4Mu4ddo)
 
 ## Updating documents ##
 
@@ -170,6 +165,14 @@ Once the dataset has been downloaded from the annotation tool, run the following
 # Train
 $ python3 trainer.py
 ```
+
+## :rocket: Improvements ##
+
+:heavy_check_mark: Retrieval-Augmented Generation - Currently the model works by selecting the most appropriate span of text and presenting it as the answer (extractive QA). The next step is the generation of novel answers from the same documents. This makes the bot more human-like and thus more trust-worthy.;\
+
+:heavy_check_mark: Generative Pretraining - The annotation tool is labour intesive and costly. Generative Pretraining aims to simulate a human asking and answerinig (annotating) documents. The code is present but still needs fine-tuning;\
+
+:heavy_check_mark: Context Management - Users ask ambiguous questions, such as: "How much is this course?". Context management allows the bot to know which course the user is talking about or ask for clarity where there is uncertainty.;
 
 ## :memo: License ##
 
