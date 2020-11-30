@@ -90,7 +90,7 @@ $ export SLACK_BOT_TOKEN="xoxb-xxxx"
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{Bnkosi}}/odin
+$ git clone https://github.com/Bnkosi/odin
 
 # Access
 $ cd odin
