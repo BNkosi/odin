@@ -90,7 +90,7 @@ $ export SLACK_BOT_TOKEN="xoxb-xxxx"
 
 ```bash
 # Clone this project
-$ git clone https://github.com/Bnkosi/odin
+$ git clone https://github.com/Bnkosi/odin.git
 
 # Access
 $ cd odin
@@ -99,7 +99,6 @@ $ cd odin
 $ pip install farm-haystack==0.4.9
 ```
 
-### :: ###
 ### :page_facing_up: Run the pipeline ###
 
 H.E.R.A works by scraping your website and loading this data into and ElasticSearch Document Store. It is possible to ask questions immediately but to improve accuracy, a model should be trained.
@@ -114,6 +113,21 @@ $ docker run <container_name>
 
 # 2. Start the app
 $ $ gunicorn rest_api.application:app -b 0.0.0.0:8000 -k uvicorn.workers.UvicornWorker -t 300
+```
+## Running Ngrok ##
+### :: Set up a tunnel###
+
+You will need to set up a HTTP tunneler to allow slack to communicate with your local server
+
+```bash
+# Navigate to ngrok installation folder and run the following.
+$ ./ngrok http 3000
+```
+
+Copy the resultant https forwarding address and update the Slack App Event Subscriptions Request URL. 
+
+eg: `https://6fdef00d53b6.ngrok.io/slack/events`
+
 
 # To add additional documents
 # Change file location and run
