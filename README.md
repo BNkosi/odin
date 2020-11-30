@@ -10,15 +10,15 @@
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/BNkosi/odin?color=fcaebb">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/BNkosi/odin?color=fcaebb">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/BNkosi/odin?color=ebaed7">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/BNkosi/odin?color=fcaebb">
 
-  <img alt="License" src="https://img.shields.io/github/license/BNkosi/odin?color=fcaebb">
+  <img alt="License" src="https://img.shields.io/github/license/BNkosi/odin?color=ebaed7">
 
   <img alt="Github issues" src="https://img.shields.io/github/issues/BNkosi/odin?color=fcaebb" />
 
-  <img alt="Github forks" src="https://img.shields.io/github/forks/BNkosi/odin?color=fcaebb" />
+  <img alt="Github forks" src="https://img.shields.io/github/forks/BNkosi/odin?color=ebaed7" />
 
   <img alt="Github stars" src="https://img.shields.io/github/stars/BNkosi/odin?color=fcaebb" />
 </p>
