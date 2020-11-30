@@ -70,7 +70,7 @@ Hera aims to address this issue by creating an information retrieval assistant t
 The following tools were used in this project:
 
 - [Docker](https://docs.docker.com)
-- [Slack App](ttps://api.slack.com/apps)
+- [Slack App](https://api.slack.com/apps)
 - [Ngrok](https://ngrok.com/)
 - [Haystack](https://github.com/deepset-ai/haystack)
 
